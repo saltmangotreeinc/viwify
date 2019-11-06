@@ -7,3 +7,4 @@ Template Name: About Us
 <section>
   <h1>Custom Page</h1>
 </section>
+<?php get_footer(); ?>

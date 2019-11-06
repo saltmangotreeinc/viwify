@@ -21,6 +21,6 @@
 
 <body>
 <?php wp_body_open(); ?>
-<div class="header">
+<div class="site-header">
 	<h1>Header</h1>
 </div>

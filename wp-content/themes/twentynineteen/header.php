@@ -40,11 +40,13 @@
 </head>
 
 <body>
-  <!-- NAVBAR
-    ================================================== -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-white">
+  <!-- NAVBAR ================================================== -->
+  <?php if ( is_page_template('products.php')): ?>
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-togglable fixed-top">
+  <?php else: ?>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+  <?php endif; ?>
     <div class="container">
-
       <!-- Brand -->
       <a class="navbar-brand" href="index.html">
         <img src="<?php bloginfo('template_directory');?>/assets/img/brand.svg" class="navbar-brand-img" alt="...">
@@ -68,25 +70,25 @@
         <!-- Navigation -->
         <ul class="navbar-nav ml-auto">
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" id="navbarLandings" data-toggle="dropdown" href="index.html#"
+            <a class="nav-link" href="/product"
               aria-haspopup="true" aria-expanded="false">
               Product
             </a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" id="navbarLandings" data-toggle="dropdown" href="index.html#"
+            <a class="nav-link" href="index.html#"
               aria-haspopup="true" aria-expanded="false">
               Use Case
             </a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" id="navbarLandings" data-toggle="dropdown" href="index.html#"
+            <a class="nav-link" href="index.html#"
               aria-haspopup="true" aria-expanded="false">
               Industry
             </a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" id="navbarLandings" data-toggle="dropdown" href="index.html#"
+            <a class="nav-link" href="index.html#"
               aria-haspopup="true" aria-expanded="false">
               About Us
             </a>

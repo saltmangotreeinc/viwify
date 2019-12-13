@@ -70,26 +70,22 @@
         <!-- Navigation -->
         <ul class="navbar-nav ml-auto">
           <li class="nav-item dropdown">
-            <a class="nav-link" href="/product"
-              aria-haspopup="true" aria-expanded="false">
+            <a class="nav-link" href="/product">
               Product
             </a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link" href="index.html#"
-              aria-haspopup="true" aria-expanded="false">
+            <a class="nav-link" href="/use-cases">
               Use Case
             </a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link" href="index.html#"
-              aria-haspopup="true" aria-expanded="false">
+            <a class="nav-link" href="/industries">
               Industry
             </a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link" href="index.html#"
-              aria-haspopup="true" aria-expanded="false">
+            <a class="nav-link" href="/about-us">
               About Us
             </a>
           </li>

@@ -7,7 +7,7 @@ Template Name: Front Page
 
 <!-- WELCOME
     ================================================== -->
-<section class="py-4 py-md-11">
+<section class="pt-2 pt-md-11 pb-8 pb-md-11">
   <div class="container">
     <div class="row align-items-center">
       <div class="col-12 col-md-5 col-lg-6 order-md-2">
@@ -47,7 +47,7 @@ Template Name: Front Page
 
 <!-- SCALABLE
     ================================================== -->
-<section class="pt-6 pt-md-9 pb-10 pb-md-15 border-top">
+<section class="pt-9 pt-md-9 pb-12 pb-md-15">
   <div class="container">
     <div class="row align-items-center">
       <div class="col-12 col-md-6 order-md-1">
@@ -213,26 +213,8 @@ Template Name: Front Page
       </div>
     </div> <!-- / .row -->
     <div class="row align-items-center justify-content-between py-6 py-md-8">
-      <div class="col-12 col-md-6 col-lg-5" data-aos="fade-left">
-
-        <!-- Heading -->
-        <h2 class="font-weight-bold">
-          Show your friends and family where you've been.
-        </h2>
-
-        <!-- Text -->
-        <p class="font-size-lg text-muted mb-4">
-          Staying connected while traveling can be tough, but Landkit makes it easy by automatically sharing your
-          experiences.
-        </p>
-
-        <!-- Button -->
-        <a href="mobile-app.html#!" class="btn btn-primary">
-          Learn more
-        </a>
-
-      </div>
-      <div class="col-12 col-md-6 mb-5 mb-md-0">
+      
+      <div class="col-12 col-md-6 mb-5 mb-md-0 order-md-2">
 
         <!-- Images -->
         <div class="row">
@@ -255,6 +237,25 @@ Template Name: Front Page
 
           </div>
         </div> <!-- / .row -->
+
+      </div>
+      <div class="col-12 col-md-6 col-lg-5 order-md-1" data-aos="fade-left">
+
+        <!-- Heading -->
+        <h2 class="font-weight-bold">
+          Show your friends and family where you've been.
+        </h2>
+
+        <!-- Text -->
+        <p class="font-size-lg text-muted mb-4">
+          Staying connected while traveling can be tough, but Landkit makes it easy by automatically sharing your
+          experiences.
+        </p>
+
+        <!-- Button -->
+        <a href="mobile-app.html#!" class="btn btn-primary">
+          Learn more
+        </a>
 
       </div>
     </div>

@@ -301,105 +301,104 @@ Template Name: Industries
     </div> <!-- / .row -->
   </div> <!-- / .container -->
 </section>
-  <!-- ABOUT
-    ================================================== -->
-  <section class="py-6 py-md-9">
-    <div class="container">
-      <div class="row align-items-center justify-content-between py-6 py-md-8">
-        <div class="col-12 col-md-6 mb-5 mb-md-0">
 
-          <!-- Images -->
-          <div class="row">
-            <div class="col-6 mr-n5">
+<section class="py-6 py-md-9 bg-gray-200">
+  <div class="container">
+    <div class="row align-items-center justify-content-between py-6 py-md-8">
+      <div class="col-12 col-md-6 mb-5 mb-md-0">
 
-              <img src="<?php bloginfo('template_directory');?>/assets/img/photos/photo-23.jpg" alt="..."
-                class="img-fluid mb-4 rounded" data-aos="fade-right" data-aos-delay="100">
+        <!-- Images -->
+        <div class="row">
+          <div class="col-6 mr-n5">
 
-              <img src="<?php bloginfo('template_directory');?>/assets/img/photos/photo-25.jpg" alt="..."
-                class="img-fluid rounded" data-aos="fade-right" data-aos-delay="150">
+            <img src="<?php bloginfo('template_directory');?>/assets/img/photos/photo-23.jpg" alt="..."
+              class="img-fluid mb-4 rounded" data-aos="fade-right" data-aos-delay="100">
 
-            </div>
-            <div class="col-6 mt-8">
+            <img src="<?php bloginfo('template_directory');?>/assets/img/photos/photo-25.jpg" alt="..."
+              class="img-fluid rounded" data-aos="fade-right" data-aos-delay="150">
 
-              <img src="<?php bloginfo('template_directory');?>/assets/img/photos/photo-22.jpg" alt="..."
-                class="img-fluid mb-4 rounded" data-aos="fade-right">
+          </div>
+          <div class="col-6 mt-8">
 
-              <img src="<?php bloginfo('template_directory');?>/assets/img/photos/photo-24.jpg" alt="..."
-                class="img-fluid rounded" data-aos="fade-right" data-aos-delay="50">
+            <img src="<?php bloginfo('template_directory');?>/assets/img/photos/photo-22.jpg" alt="..."
+              class="img-fluid mb-4 rounded" data-aos="fade-right">
 
-            </div>
-          </div> <!-- / .row -->
+            <img src="<?php bloginfo('template_directory');?>/assets/img/photos/photo-24.jpg" alt="..."
+              class="img-fluid rounded" data-aos="fade-right" data-aos-delay="50">
 
-        </div>
-        <div class="col-12 col-md-6 col-lg-5" data-aos="fade-left">
+          </div>
+        </div> <!-- / .row -->
 
-          <!-- Heading -->
-          <h2 class="font-weight-bold">
-            Show your friends and family where you've been.
-          </h2>
-
-          <!-- Text -->
-          <p class="font-size-lg text-muted mb-4">
-            Staying connected while traveling can be tough, but Landkit makes it easy by automatically sharing your
-            experiences.
-          </p>
-
-          <!-- Button -->
-          <a href="mobile-app.html#!" class="btn btn-primary">
-            Learn more
-          </a>
-
-        </div>
-      </div> <!-- / .row -->
-      <div class="row align-items-center justify-content-between py-6 py-md-8">
-        <div class="col-12 col-md-6 col-lg-5" data-aos="fade-left">
-
-          <!-- Heading -->
-          <h2 class="font-weight-bold">
-            Show your friends and family where you've been.
-          </h2>
-
-          <!-- Text -->
-          <p class="font-size-lg text-muted mb-4">
-            Staying connected while traveling can be tough, but Landkit makes it easy by automatically sharing your
-            experiences.
-          </p>
-
-          <!-- Button -->
-          <a href="mobile-app.html#!" class="btn btn-primary">
-            Learn more
-          </a>
-
-        </div>
-        <div class="col-12 col-md-6 mb-5 mb-md-0">
-
-          <!-- Images -->
-          <div class="row">
-            <div class="col-6 mr-n5">
-
-              <img src="<?php bloginfo('template_directory');?>/assets/img/photos/photo-23.jpg" alt="..."
-                class="img-fluid mb-4 rounded" data-aos="fade-right" data-aos-delay="100">
-
-              <img src="<?php bloginfo('template_directory');?>/assets/img/photos/photo-25.jpg" alt="..."
-                class="img-fluid rounded" data-aos="fade-right" data-aos-delay="150">
-
-            </div>
-            <div class="col-6 mt-8">
-
-              <img src="<?php bloginfo('template_directory');?>/assets/img/photos/photo-22.jpg" alt="..."
-                class="img-fluid mb-4 rounded" data-aos="fade-right">
-
-              <img src="<?php bloginfo('template_directory');?>/assets/img/photos/photo-24.jpg" alt="..."
-                class="img-fluid rounded" data-aos="fade-right" data-aos-delay="50">
-
-            </div>
-          </div> <!-- / .row -->
-
-        </div>
       </div>
-    </div> <!-- / .container -->
-  </section>
+      <div class="col-12 col-md-6 col-lg-5" data-aos="fade-left">
 
+        <!-- Heading -->
+        <h2 class="font-weight-bold">
+          Show your friends and family where you've been.
+        </h2>
+
+        <!-- Text -->
+        <p class="font-size-lg text-muted mb-4">
+          Staying connected while traveling can be tough, but Landkit makes it easy by automatically sharing your
+          experiences.
+        </p>
+
+        <!-- Button -->
+        <a href="mobile-app.html#!" class="btn btn-primary">
+          Learn more
+        </a>
+
+      </div>
+    </div> <!-- / .row -->
+    <div class="row align-items-center justify-content-between py-6 py-md-8">
+      
+      <div class="col-12 col-md-6 mb-5 mb-md-0 order-md-2">
+
+        <!-- Images -->
+        <div class="row">
+          <div class="col-6 mr-n5">
+
+            <img src="<?php bloginfo('template_directory');?>/assets/img/photos/photo-23.jpg" alt="..."
+              class="img-fluid mb-4 rounded" data-aos="fade-right" data-aos-delay="100">
+
+            <img src="<?php bloginfo('template_directory');?>/assets/img/photos/photo-25.jpg" alt="..."
+              class="img-fluid rounded" data-aos="fade-right" data-aos-delay="150">
+
+          </div>
+          <div class="col-6 mt-8">
+
+            <img src="<?php bloginfo('template_directory');?>/assets/img/photos/photo-22.jpg" alt="..."
+              class="img-fluid mb-4 rounded" data-aos="fade-right">
+
+            <img src="<?php bloginfo('template_directory');?>/assets/img/photos/photo-24.jpg" alt="..."
+              class="img-fluid rounded" data-aos="fade-right" data-aos-delay="50">
+
+          </div>
+        </div> <!-- / .row -->
+
+      </div>
+      <div class="col-12 col-md-6 col-lg-5 order-md-1" data-aos="fade-left">
+
+        <!-- Heading -->
+        <h2 class="font-weight-bold">
+          Show your friends and family where you've been.
+        </h2>
+
+        <!-- Text -->
+        <p class="font-size-lg text-muted mb-4">
+          Staying connected while traveling can be tough, but Landkit makes it easy by automatically sharing your
+          experiences.
+        </p>
+
+        <!-- Button -->
+        <a href="mobile-app.html#!" class="btn btn-primary">
+          Learn more
+        </a>
+
+      </div>
+    </div>
+  </div> <!-- / .container -->
+</section>
   <!-- CTA
     ================================================== -->
   <section class="py-8 py-md-11 bg-dark">

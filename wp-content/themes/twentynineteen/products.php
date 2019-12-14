@@ -176,8 +176,6 @@ Template Name: Products
   </div>
 </div>
 
-<!-- ABOUT
-    ================================================== -->
 <section class="py-6 py-md-9 bg-gray-200">
   <div class="container">
     <div class="row align-items-center justify-content-between py-6 py-md-8">
@@ -227,26 +225,8 @@ Template Name: Products
       </div>
     </div> <!-- / .row -->
     <div class="row align-items-center justify-content-between py-6 py-md-8">
-      <div class="col-12 col-md-6 col-lg-5" data-aos="fade-left">
-
-        <!-- Heading -->
-        <h2 class="font-weight-bold">
-          Show your friends and family where you've been.
-        </h2>
-
-        <!-- Text -->
-        <p class="font-size-lg text-muted mb-4">
-          Staying connected while traveling can be tough, but Landkit makes it easy by automatically sharing your
-          experiences.
-        </p>
-
-        <!-- Button -->
-        <a href="mobile-app.html#!" class="btn btn-primary">
-          Learn more
-        </a>
-
-      </div>
-      <div class="col-12 col-md-6 mb-5 mb-md-0">
+      
+      <div class="col-12 col-md-6 mb-5 mb-md-0 order-md-2">
 
         <!-- Images -->
         <div class="row">
@@ -269,6 +249,25 @@ Template Name: Products
 
           </div>
         </div> <!-- / .row -->
+
+      </div>
+      <div class="col-12 col-md-6 col-lg-5 order-md-1" data-aos="fade-left">
+
+        <!-- Heading -->
+        <h2 class="font-weight-bold">
+          Show your friends and family where you've been.
+        </h2>
+
+        <!-- Text -->
+        <p class="font-size-lg text-muted mb-4">
+          Staying connected while traveling can be tough, but Landkit makes it easy by automatically sharing your
+          experiences.
+        </p>
+
+        <!-- Button -->
+        <a href="mobile-app.html#!" class="btn btn-primary">
+          Learn more
+        </a>
 
       </div>
     </div>

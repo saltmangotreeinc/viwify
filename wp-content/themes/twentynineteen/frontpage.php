@@ -21,22 +21,19 @@ Template Name: Front Page
 
         <!-- Heading -->
         <h1 class="display-3 text-center text-md-left">
-          Welcome to <span class="text-primary">Viwify</span>. <br>
-          Develop anything.
+          The Power Of Communication.<br/>
+          <span class="text-primary">Future-Ready.</span>
         </h1>
 
         <!-- Text -->
         <p class="lead text-center text-md-left text-muted mb-6 mb-lg-8">
-          Build a beautiful, modern website with flexible Bootstrap components built from scratch.
+          Transform the way your audience experience you. Let the screens tell your stories, better.
         </p>
 
         <!-- Buttons -->
         <div class="text-center text-md-left">
           <a href="overview.html" class="btn btn-primary shadow lift mr-1">
-            View all pages <i class="fe fe-arrow-right d-none d-md-inline ml-3"></i>
-          </a>
-          <a href="docs/index.html" class="btn btn-primary-soft lift">
-            Documentation
+            Speak to Us Now
           </a>
         </div>
 
@@ -61,23 +58,22 @@ Template Name: Front Page
 
         <!-- Badge -->
         <span class="badge badge-pill badge-primary-soft mb-3">
-          <span class="h6 text-uppercase">Scalable</span>
+          <span class="h6 text-uppercase">VivEngage Series</span>
         </span>
 
         <!-- Heading -->
         <h2>
-          Flexible office space means <br>
-          <span class="text-primary">growing your team is easy</span>.
+          Flip Your Charts! <br>
+          <span class="text-primary">Entice & engage better with your audience.</span>
         </h2>
 
         <!-- Text -->
         <p class="font-size-lg text-gray-700 mb-6 mb-md-6">
-          Rather than worrying about switching offices every couple years, you can instead stay in the same location and
-          grow-up from your shared coworking space to an office that takes up an entire floor.
+          Strategically built to meet any demanding environment, Viwify VivEngage series offers best-in-class collaborative features. The immersive viewing experience & guaranteed longevity keeps the experience seamless and your investment worthwhile.
         </p>
 
         <!-- List -->
-        <div class="row">
+        <div class="row font-size-sm">
           <div class="col-12 col-lg-6">
 
             <!-- Item -->
@@ -90,7 +86,7 @@ Template Name: Front Page
 
               <!-- Text -->
               <p>
-                Add space anytime
+                Bright Non-Glare Panel
               </p>
 
             </div>
@@ -104,7 +100,7 @@ Template Name: Front Page
               </div>
 
               <p class="mb-lg-0">
-                Group discounts
+                Dual boot OS
               </p>
 
             </div>
@@ -122,7 +118,7 @@ Template Name: Front Page
 
               <!-- Text -->
               <p>
-                Infinite flexibility
+                Gesture Recognition
               </p>
 
             </div>
@@ -137,7 +133,7 @@ Template Name: Front Page
 
               <!-- Text -->
               <p class="mb-0">
-                Snacks included
+                Multi-user Collaboration
               </p>
 
             </div>
@@ -196,18 +192,17 @@ Template Name: Front Page
 
         <!-- Heading -->
         <h2 class="font-weight-bold">
-          Show your friends and family where you've been.
+          Viwify For Education
         </h2>
 
         <!-- Text -->
         <p class="font-size-lg text-muted mb-4">
-          Staying connected while traveling can be tough, but Landkit makes it easy by automatically sharing your
-          experiences.
+          Create an interactive learning environment that compliments & enhances the architecture of your campus
         </p>
 
         <!-- Button -->
         <a href="mobile-app.html#!" class="btn btn-primary">
-          Learn more
+          Download Sheet
         </a>
 
       </div>
@@ -243,18 +238,17 @@ Template Name: Front Page
 
         <!-- Heading -->
         <h2 class="font-weight-bold">
-          Show your friends and family where you've been.
+          Viwify For Business
         </h2>
 
         <!-- Text -->
         <p class="font-size-lg text-muted mb-4">
-          Staying connected while traveling can be tough, but Landkit makes it easy by automatically sharing your
-          experiences.
+          Engage, motivate & communicate to your customers & employees, better. Impact the way your business operates.
         </p>
 
         <!-- Button -->
         <a href="mobile-app.html#!" class="btn btn-primary">
-          Learn more
+          Download Sheet
         </a>
 
       </div>
@@ -276,18 +270,17 @@ Template Name: Front Page
 
         <!-- Heading -->
         <h1 class="display-4 text-white">
-          Get Landkit and save your time.
+          Ready to up your game with Viwify?
         </h1>
 
         <!-- Text -->
         <p class="font-size-lg text-muted mb-6 mb-md-8">
-          Stop wasting time trying to do it the "right way" and build a site from scratch. Landkit is faster, easier,
-          and you still have complete control.
+          In your mall, at classrooms, or at work - Viwify displays tell your stories better
         </p>
 
         <!-- Button -->
         <a href="https://themes.getbootstrap.com/product/landkit/" target="_blank" class="btn btn-success lift">
-          Buy it now <i class="fe fe-arrow-right"></i>
+          Speak to Us Now
         </a>
 
       </div>

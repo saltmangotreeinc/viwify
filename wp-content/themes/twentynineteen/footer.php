@@ -18,14 +18,14 @@
     <footer class="py-8 py-md-11 bg-gray-200">
       <div class="container">
         <div class="row">
-          <div class="col-12 col-md-12 col-lg-3 text-center pb-md-8 text-lg-left">
+          <div class="col-12 col-md-12 col-lg-4 text-center pb-md-8 text-lg-left">
         
             <!-- Brand -->
             <img src="<?php bloginfo('template_directory');?>/assets/img/brand.svg" alt="..." class="footer-brand img-fluid mb-2">
 
             <!-- Text -->
             <p class="text-gray-700 mb-2">
-              A better way to build.
+              Future-Ready Communications.
             </p>
 
             <!-- Social -->
@@ -53,7 +53,7 @@
             </ul>
 
           </div>
-          <div class="col-12 col-md-4 col-lg-3 offset-lg-2 text-center text-lg-left">
+          <div class="col-12 col-md-4 col-lg-3 offset-lg-1 text-center text-lg-left">
         
             <!-- Heading -->
             <h6 class="font-weight-bold text-uppercase text-gray-700">

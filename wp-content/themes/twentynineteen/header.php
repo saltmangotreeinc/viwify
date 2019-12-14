@@ -48,7 +48,7 @@
   <?php endif; ?>
     <div class="container">
       <!-- Brand -->
-      <a class="navbar-brand" href="index.html">
+      <a class="navbar-brand" href="/">
         <img src="<?php bloginfo('template_directory');?>/assets/img/brand.svg" class="navbar-brand-img" alt="...">
       </a>
 

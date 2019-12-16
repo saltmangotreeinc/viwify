@@ -74,7 +74,7 @@
               Products
             </a>
           </li>
-          <li class="nav-item dropdown">
+          <!-- <li class="nav-item dropdown">
             <a class="nav-link" href="/use-cases">
               Use Case
             </a>
@@ -83,7 +83,7 @@
             <a class="nav-link" href="/industries">
               Industry
             </a>
-          </li>
+          </li> -->
           <li class="nav-item dropdown">
             <a class="nav-link" href="/about-us">
               About Us

@@ -10,7 +10,7 @@ Template Name: Products
 <section data-jarallax data-speed=".8" class="pt-12 pb-10 pt-md-15 pb-md-14"
   style="background-image: url('<?php bloginfo('template_directory');?>/assets/img/products-banner.png')">
   <div class="container">
-    <div class="row align-items-center">
+    <div class="row align-items-center mb-8 mb-sm-12">
       <div class="col-12 col-md-8 col-lg-6">
 
         <!-- Heading -->
@@ -367,99 +367,96 @@ Template Name: Products
   </div>
 </div>
 
-<section class="py-6 py-md-9 bg-gray-200">
+<section class="pt-9 pt-md-9 pb-10 pb-md-12 bg-gray-200">
   <div class="container">
-    <div class="row align-items-center justify-content-between py-6 py-md-8">
-      <div class="col-12 col-md-6 mb-5 mb-md-0">
+    <div class="row align-items-center mb-8 mb-sm-12">
+      <div class="col-12 col-md-6 order-md-1">
 
-        <!-- Images -->
-        <div class="row">
-          <div class="col-6 mr-n5">
-
-            <img src="<?php bloginfo('template_directory');?>/assets/img/education/education-3.png" alt="..."
-              class="img-fluid mb-4 rounded" data-aos="fade-right" data-aos-delay="100">
-
-            <img src="<?php bloginfo('template_directory');?>/assets/img/education/education-2.png" alt="..."
-              class="img-fluid rounded" data-aos="fade-right" data-aos-delay="150">
-
-          </div>
-          <div class="col-6 mt-8">
-
-            <img src="<?php bloginfo('template_directory');?>/assets/img/education/education-4.png" alt="..."
-              class="img-fluid mb-4 rounded" data-aos="fade-right">
-
-            <img src="<?php bloginfo('template_directory');?>/assets/img/education/education-1.png" alt="..."
-              class="img-fluid rounded" data-aos="fade-right" data-aos-delay="50">
-
-          </div>
-        </div> <!-- / .row -->
+        <!-- Image -->
+        <img src="<?php bloginfo('template_directory');?>/assets/img/vivengage-series.png" alt="..."
+          class="img-fluid mb-6 mb-md-0">
 
       </div>
-      <div class="col-12 col-md-6 col-lg-5" data-aos="fade-left">
+      <div class="col-12 col-md-6 order-md-2">
 
         <!-- Heading -->
-        <h2 class="font-weight-bold">
-          Viwify For Education
+        <h2>
+          Wayfinding Applications
         </h2>
 
         <!-- Text -->
-        <p class="font-size-lg text-muted mb-4">
-          Create an interactive learning environment that compliments & enhances the architecture of your campus
+        <p class="font-size-lg text-gray-700 mb-6 mb-md-6">
+          From printed maps to digital yet static maps on monitors to interactive touch screens, indoor wayfinding has evolved over the decades. Deliver seamless image experiences and keep it super easy to navigate your campus with Viwify VivEngage interactive displays.
         </p>
-
-        <!-- Button -->
-        <a href="mobile-app.html#!" class="btn btn-primary">
-          Download Sheet
-        </a>
 
       </div>
     </div> <!-- / .row -->
-    <div class="row align-items-center justify-content-between py-6 py-md-8">
-      
-      <div class="col-12 col-md-6 mb-5 mb-md-0 order-md-2">
+    <div class="row align-items-center mb-8 mb-sm-12">
+      <div class="col-12 col-md-6 order-md-2">
 
-        <!-- Images -->
-        <div class="row">
-          <div class="col-6 mr-n5">
-
-            <img src="<?php bloginfo('template_directory');?>/assets/img/business/business-4.png" alt="..."
-              class="img-fluid mb-4 rounded" data-aos="fade-right" data-aos-delay="100">
-
-            <img src="<?php bloginfo('template_directory');?>/assets/img/business/business-2.png" alt="..."
-              class="img-fluid rounded" data-aos="fade-right" data-aos-delay="150">
-
-          </div>
-          <div class="col-6 mt-8">
-
-            <img src="<?php bloginfo('template_directory');?>/assets/img/business/business-3.png" alt="..."
-              class="img-fluid mb-4 rounded" data-aos="fade-right">
-
-            <img src="<?php bloginfo('template_directory');?>/assets/img/business/business-1.png" alt="..."
-              class="img-fluid rounded" data-aos="fade-right" data-aos-delay="50">
-
-          </div>
-        </div> <!-- / .row -->
+        <!-- Image -->
+        <img src="<?php bloginfo('template_directory');?>/assets/img/vivengage-series.png" alt="..."
+          class="img-fluid mb-6 mb-md-0">
 
       </div>
-      <div class="col-12 col-md-6 col-lg-5 order-md-1" data-aos="fade-left">
+      <div class="col-12 col-md-6 order-md-1">
 
         <!-- Heading -->
-        <h2 class="font-weight-bold">
-          Viwify For Business
+        <h2>
+          Interactive Directories
         </h2>
 
         <!-- Text -->
-        <p class="font-size-lg text-muted mb-4">
-          Engage, motivate & communicate to your customers & employees, better. Impact the way your business operates.
+        <p class="font-size-lg text-gray-700 mb-6 mb-md-6">
+          Guide & direct your guests, patients, students, or visitors to their desired locations with Viwify VivEngage interactive displays. Transform the way your customers communicate with you & create a positive, engaging experience for them, hasslefree.
         </p>
 
-        <!-- Button -->
-        <a href="mobile-app.html#!" class="btn btn-primary">
-          Download Sheet
-        </a>
+      </div>
+    </div> <!-- / .row -->
+    <div class="row align-items-center mb-8 mb-sm-12">
+      <div class="col-12 col-md-6 order-md-1">
+
+        <!-- Image -->
+        <img src="<?php bloginfo('template_directory');?>/assets/img/vivengage-series.png" alt="..."
+          class="img-fluid mb-6 mb-md-0">
 
       </div>
-    </div>
+      <div class="col-12 col-md-6 order-md-2">
+
+        <!-- Heading -->
+        <h2>
+          Video Conferencing
+        </h2>
+
+        <!-- Text -->
+        <p class="font-size-lg text-gray-700 mb-6 mb-md-6">
+          Empower your team to collaborate & enhance professional efficacy with VivEngage interactive displays- the smarter solution for your business. Grab incredible business advantages & foster creativity with seamless video conferencing capabilities.
+        </p>
+
+      </div>
+    </div> <!-- / .row -->
+    <div class="row align-items-center">
+      <div class="col-12 col-md-6 order-md-2">
+
+        <!-- Image -->
+        <img src="<?php bloginfo('template_directory');?>/assets/img/vivengage-series.png" alt="..."
+          class="img-fluid mb-6 mb-md-0">
+
+      </div>
+      <div class="col-12 col-md-6 order-md-1">
+
+        <!-- Heading -->
+        <h2>
+          Collaborative Classrooms
+        </h2>
+
+        <!-- Text -->
+        <p class="font-size-lg text-gray-700 mb-6 mb-md-6">
+          Interactive displays captivate & boost student engagement. Support active learning & offer much more learning opportunities to your students- from kinesthetic learners to auditory & visual learners to early learners & advanced learners.
+        </p>
+
+      </div>
+    </div> <!-- / .row -->
   </div> <!-- / .container -->
 </section>
 <?php get_footer(); ?>

@@ -12,6 +12,7 @@
  */
 
 ?>
+<?php if ( !is_page_template('about-us.php')): ?>
 <section class="py-8 py-md-11 bg-dark">
   <div class="container">
     <div class="row justify-content-center">
@@ -51,6 +52,7 @@
     </svg>
   </div>
 </div>
+<?php endif; ?>
 <!-- FOOTER
     ================================================== -->
 <footer class="py-8 py-md-11 bg-gray-200">

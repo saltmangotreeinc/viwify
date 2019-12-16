@@ -21,20 +21,17 @@ Template Name: Front Page
 
         <!-- Heading -->
         <h1 class="display-3 text-center text-md-left">
-          The Power Of Communication.<br/>
-          <span class="text-primary">Future-Ready.</span>
+          Next-Gen Digital Display Solutions.
         </h1>
 
         <!-- Text -->
         <p class="lead text-center text-md-left text-muted mb-6 mb-lg-8">
-          Transform the way your audience experience you. Let the screens tell your stories, better.
+          Transform the way your audience experience you. Let our screens tell your stories, better.
         </p>
 
         <!-- Buttons -->
         <div class="text-center text-md-left">
-          <a href="overview.html" class="btn btn-primary shadow lift mr-1">
-            Speak to Us Now
-          </a>
+          <? include 'template-parts/cta.php' ?>
         </div>
 
       </div>
@@ -58,7 +55,7 @@ Template Name: Front Page
 
         <!-- Badge -->
         <span class="badge badge-pill badge-primary-soft mb-3">
-          <span class="h6 text-uppercase">VivEngage Series</span>
+          <span class="h6 text-uppercase">Viwify Interactive Display Boards</span>
         </span>
 
         <!-- Heading -->
@@ -69,7 +66,7 @@ Template Name: Front Page
 
         <!-- Text -->
         <p class="font-size-lg text-gray-700 mb-6 mb-md-6">
-          Strategically built to meet any demanding environment, Viwify VivEngage series offers best-in-class collaborative features. The immersive viewing experience & guaranteed longevity keeps the experience seamless and your investment worthwhile.
+          Strategically built to meet any demanding environment, Viwify interactive display boards offer best-in-class collaborative features. The immersive viewing experience, unparalleled quality, & guaranteed longevity keeps the experience seamless and your investment worthwhile. 
         </p>
 
         <!-- List -->
@@ -197,7 +194,7 @@ Template Name: Front Page
 
         <!-- Text -->
         <p class="font-size-lg text-muted mb-4">
-          Create an interactive learning environment that compliments & enhances the architecture of your campus
+          Create an interactive learning environment that compliments & enhances your campus.
         </p>
 
         <!-- Button -->

@@ -25,18 +25,16 @@
 
         <!-- Heading -->
         <h1 class="display-4 text-white">
-          Ready to up your game with Viwify?
+          Communication is next-gen already. Question is, are you? 
         </h1>
 
         <!-- Text -->
         <p class="font-size-lg text-muted mb-6 mb-md-8">
-          In your mall, at classrooms, or at work - Viwify displays tell your stories better
+          Classrooms, conference rooms, mall, or at work - Viwify displays to get the point across.
         </p>
 
         <!-- Button -->
-        <a href="https://themes.getbootstrap.com/product/landkit/" target="_blank" class="btn btn-success lift">
-          Speak to Us Now
-        </a>
+        <? include 'template-parts/cta.php' ?>
 
       </div>
     </div> <!-- / .row -->

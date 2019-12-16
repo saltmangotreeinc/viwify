@@ -198,9 +198,12 @@ Template Name: Front Page
         </p>
 
         <!-- Button -->
-        <a href="mobile-app.html#!" class="btn btn-primary">
+        <a href="#!" class="btn btn-primary">
           Download Sheet
         </a>
+        <!-- <a href="<?php bloginfo('template_directory');?>/assets/img/brand.svg" download="brand" class="btn btn-primary">
+          Download Sheet
+        </a> -->
 
       </div>
     </div> <!-- / .row -->
@@ -244,9 +247,12 @@ Template Name: Front Page
         </p>
 
         <!-- Button -->
-        <a href="mobile-app.html#!" class="btn btn-primary">
+        <a href="#!" class="btn btn-primary">
           Download Sheet
         </a>
+        <!-- <a href="<?php bloginfo('template_directory');?>/assets/img/brand.svg" download="brand" class="btn btn-primary">
+          Download Sheet
+        </a> -->
 
       </div>
     </div>

@@ -8,28 +8,28 @@ Template Name: Products
 <!-- WELCOME
     ================================================== -->
 <section data-jarallax data-speed=".8" class="pt-12 pb-10 pt-md-15 pb-md-14"
-  style="background-image: url('<?php bloginfo('template_directory');?>/assets/img/covers/cover-3.jpg')">
+  style="background-image: url('<?php bloginfo('template_directory');?>/assets/img/products-banner.png')">
   <div class="container">
     <div class="row align-items-center">
       <div class="col-12 col-md-8 col-lg-6">
 
         <!-- Heading -->
         <h1 class="display-3 font-weight-bold text-white" id="welcomeHeadingSource">
-          Remote positions for <br />
+          Designed to deliver  <br />
           <span class="text-warning" data-toggle="typed"
-            data-options='{"strings": ["UX Designers", "Ruby Developers", "Data Analysts", "Copywriters"]}'></span>
+            data-options='{"strings": ["better experiences", "faster breakthroughs", "higher engagement"]}'></span>
         </h1>
 
 
         <!-- Text -->
         <p class="font-size-lg text-white-80 mb-6">
-          We help place the world's top tech talent at the some of the greatest companies in the world.
+          Viwify Interactive Display Boards let you truly captivate your audience with next-generation collaborative features.
         </p>
 
         <!-- Buttons -->
         <div class="text-center text-md-left">
           <a href="overview.html" class="btn btn-primary shadow lift mr-1">
-            View all pages <i class="fe fe-arrow-right d-none d-md-inline ml-3"></i>
+            Speak To Us Now
           </a>
         </div>
 
@@ -45,24 +45,23 @@ Template Name: Products
 
         <!-- Preheading -->
         <h6 class="text-uppercase text-gray-500 font-weight-bold">
-          Seamless integration
+          Viwify Interactive Display Boards
         </h6>
 
         <!-- Heading -->
         <h1 class="font-weight-bold">
-          Data transfer is just a few clicks.
+          The better way to communicate
         </h1>
 
         <!-- Text -->
         <p class="font-size-lg text-muted mb-7 mb-md-9">
-          If we're no longer the right solution for you, we'll allow you to export and take your data at anytime for any
-          reason.
+        The interactive touch screen displays from Viwify help you connect with your audience with clarity and convey your message quickly.
         </p>
 
       </div>
     </div>
     <div class="row">
-      <div class="col-12 col-md-4 text-center" data-aos="fade-up">
+      <div class="col-12 col-md-4 text-center mb-8" data-aos="fade-up">
 
         <!-- Icon -->
         <div class="icon text-primary mb-3">
@@ -86,16 +85,16 @@ Template Name: Products
 
         <!-- Heading -->
         <h3>
-          Built for developers
+          Sleek framing system
         </h3>
 
         <!-- Text -->
         <p class="text-muted mb-6 mb-md-0">
-          Landkit is built to make your life easier. Variables, build tooling, documentation, and reusable components.
+          The ultra thin, fanless, cablefree design stand at a mere 19mm
         </p>
 
       </div>
-      <div class="col-12 col-md-4 text-center" data-aos="fade-up" data-aos-delay="50">
+      <div class="col-12 col-md-4 text-center mb-8" data-aos="fade-up" data-aos-delay="50">
 
         <!-- Icon -->
         <div class="icon text-primary mb-3">
@@ -119,12 +118,140 @@ Template Name: Products
 
         <!-- Heading -->
         <h3>
-          Designed to be modern
+          IR multi-touch
         </h3>
 
         <!-- Text -->
         <p class="text-muted mb-6 mb-md-0">
-          Designed with the latest design trends in mind. Landkit feels modern, minimal, and beautiful.
+          Supports up to 10 multi-touch points
+        </p>
+
+      </div>
+      <div class="col-12 col-md-4 text-center mb-8" data-aos="fade-up" data-aos-delay="100">
+
+        <!-- Icon -->
+        <div class="icon text-primary mb-3">
+          <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink">
+            <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+            <title>Stockholm-icons / Code / Code</title>
+            <desc>Created with Sketch.</desc>
+            <g id="Stockholm-icons-/-Code-/-Code" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+              <rect id="bound" x="0" y="0" width="24" height="24"></rect>
+              <path
+                d="M17.2718029,8.68536757 C16.8932864,8.28319382 16.9124644,7.65031935 17.3146382,7.27180288 C17.7168119,6.89328641 18.3496864,6.91246442 18.7282029,7.31463817 L22.7282029,11.5646382 C23.0906029,11.9496882 23.0906029,12.5503176 22.7282029,12.9353676 L18.7282029,17.1853676 C18.3496864,17.5875413 17.7168119,17.6067193 17.3146382,17.2282029 C16.9124644,16.8496864 16.8932864,16.2168119 17.2718029,15.8146382 L20.6267538,12.2500029 L17.2718029,8.68536757 Z M6.72819712,8.6853647 L3.37324625,12.25 L6.72819712,15.8146353 C7.10671359,16.2168091 7.08753558,16.8496835 6.68536183,17.2282 C6.28318808,17.6067165 5.65031361,17.5875384 5.27179713,17.1853647 L1.27179713,12.9353647 C0.909397125,12.5503147 0.909397125,11.9496853 1.27179713,11.5646353 L5.27179713,7.3146353 C5.65031361,6.91246155 6.28318808,6.89328354 6.68536183,7.27180001 C7.08753558,7.65031648 7.10671359,8.28319095 6.72819712,8.6853647 Z"
+                id="Combined-Shape" fill="#335EEA"></path>
+              <rect id="Rectangle-28" fill="#335EEA" opacity="0.3"
+                transform="translate(12.000000, 12.000000) rotate(-345.000000) translate(-12.000000, -12.000000) "
+                x="11" y="4" width="2" height="16" rx="1"></rect>
+            </g>
+          </svg>
+        </div>
+
+        <!-- Heading -->
+        <h3>
+          Short response time
+        </h3>
+
+        <!-- Text -->
+        <p class="text-muted mb-0">
+          Boasts smooth gesture recognition capabilities
+        </p>
+
+      </div>
+      <div class="col-12 col-md-4 text-center mb-8" data-aos="fade-up" data-aos-delay="100">
+
+        <!-- Icon -->
+        <div class="icon text-primary mb-3">
+          <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink">
+            <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+            <title>Stockholm-icons / Code / Code</title>
+            <desc>Created with Sketch.</desc>
+            <g id="Stockholm-icons-/-Code-/-Code" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+              <rect id="bound" x="0" y="0" width="24" height="24"></rect>
+              <path
+                d="M17.2718029,8.68536757 C16.8932864,8.28319382 16.9124644,7.65031935 17.3146382,7.27180288 C17.7168119,6.89328641 18.3496864,6.91246442 18.7282029,7.31463817 L22.7282029,11.5646382 C23.0906029,11.9496882 23.0906029,12.5503176 22.7282029,12.9353676 L18.7282029,17.1853676 C18.3496864,17.5875413 17.7168119,17.6067193 17.3146382,17.2282029 C16.9124644,16.8496864 16.8932864,16.2168119 17.2718029,15.8146382 L20.6267538,12.2500029 L17.2718029,8.68536757 Z M6.72819712,8.6853647 L3.37324625,12.25 L6.72819712,15.8146353 C7.10671359,16.2168091 7.08753558,16.8496835 6.68536183,17.2282 C6.28318808,17.6067165 5.65031361,17.5875384 5.27179713,17.1853647 L1.27179713,12.9353647 C0.909397125,12.5503147 0.909397125,11.9496853 1.27179713,11.5646353 L5.27179713,7.3146353 C5.65031361,6.91246155 6.28318808,6.89328354 6.68536183,7.27180001 C7.08753558,7.65031648 7.10671359,8.28319095 6.72819712,8.6853647 Z"
+                id="Combined-Shape" fill="#335EEA"></path>
+              <rect id="Rectangle-28" fill="#335EEA" opacity="0.3"
+                transform="translate(12.000000, 12.000000) rotate(-345.000000) translate(-12.000000, -12.000000) "
+                x="11" y="4" width="2" height="16" rx="1"></rect>
+            </g>
+          </svg>
+        </div>
+
+        <!-- Heading -->
+        <h3>
+          4K
+        </h3>
+
+        <!-- Text -->
+        <p class="text-muted mb-0">
+          Delivers immersive viewing experience with 4K resolution
+        </p>
+
+      </div>
+      <div class="col-12 col-md-4 text-center mb-8" data-aos="fade-up" data-aos-delay="100">
+
+        <!-- Icon -->
+        <div class="icon text-primary mb-3">
+          <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink">
+            <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+            <title>Stockholm-icons / Code / Code</title>
+            <desc>Created with Sketch.</desc>
+            <g id="Stockholm-icons-/-Code-/-Code" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+              <rect id="bound" x="0" y="0" width="24" height="24"></rect>
+              <path
+                d="M17.2718029,8.68536757 C16.8932864,8.28319382 16.9124644,7.65031935 17.3146382,7.27180288 C17.7168119,6.89328641 18.3496864,6.91246442 18.7282029,7.31463817 L22.7282029,11.5646382 C23.0906029,11.9496882 23.0906029,12.5503176 22.7282029,12.9353676 L18.7282029,17.1853676 C18.3496864,17.5875413 17.7168119,17.6067193 17.3146382,17.2282029 C16.9124644,16.8496864 16.8932864,16.2168119 17.2718029,15.8146382 L20.6267538,12.2500029 L17.2718029,8.68536757 Z M6.72819712,8.6853647 L3.37324625,12.25 L6.72819712,15.8146353 C7.10671359,16.2168091 7.08753558,16.8496835 6.68536183,17.2282 C6.28318808,17.6067165 5.65031361,17.5875384 5.27179713,17.1853647 L1.27179713,12.9353647 C0.909397125,12.5503147 0.909397125,11.9496853 1.27179713,11.5646353 L5.27179713,7.3146353 C5.65031361,6.91246155 6.28318808,6.89328354 6.68536183,7.27180001 C7.08753558,7.65031648 7.10671359,8.28319095 6.72819712,8.6853647 Z"
+                id="Combined-Shape" fill="#335EEA"></path>
+              <rect id="Rectangle-28" fill="#335EEA" opacity="0.3"
+                transform="translate(12.000000, 12.000000) rotate(-345.000000) translate(-12.000000, -12.000000) "
+                x="11" y="4" width="2" height="16" rx="1"></rect>
+            </g>
+          </svg>
+        </div>
+
+        <!-- Heading -->
+        <h3>
+          HDMI, VGA, AV, & more
+        </h3>
+
+        <!-- Text -->
+        <p class="text-muted mb-0">
+          Supports multiple image signal input
+        </p>
+
+      </div>
+      <div class="col-12 col-md-4 text-center mb-8" data-aos="fade-up" data-aos-delay="100">
+
+        <!-- Icon -->
+        <div class="icon text-primary mb-3">
+          <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink">
+            <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+            <title>Stockholm-icons / Code / Code</title>
+            <desc>Created with Sketch.</desc>
+            <g id="Stockholm-icons-/-Code-/-Code" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+              <rect id="bound" x="0" y="0" width="24" height="24"></rect>
+              <path
+                d="M17.2718029,8.68536757 C16.8932864,8.28319382 16.9124644,7.65031935 17.3146382,7.27180288 C17.7168119,6.89328641 18.3496864,6.91246442 18.7282029,7.31463817 L22.7282029,11.5646382 C23.0906029,11.9496882 23.0906029,12.5503176 22.7282029,12.9353676 L18.7282029,17.1853676 C18.3496864,17.5875413 17.7168119,17.6067193 17.3146382,17.2282029 C16.9124644,16.8496864 16.8932864,16.2168119 17.2718029,15.8146382 L20.6267538,12.2500029 L17.2718029,8.68536757 Z M6.72819712,8.6853647 L3.37324625,12.25 L6.72819712,15.8146353 C7.10671359,16.2168091 7.08753558,16.8496835 6.68536183,17.2282 C6.28318808,17.6067165 5.65031361,17.5875384 5.27179713,17.1853647 L1.27179713,12.9353647 C0.909397125,12.5503147 0.909397125,11.9496853 1.27179713,11.5646353 L5.27179713,7.3146353 C5.65031361,6.91246155 6.28318808,6.89328354 6.68536183,7.27180001 C7.08753558,7.65031648 7.10671359,8.28319095 6.72819712,8.6853647 Z"
+                id="Combined-Shape" fill="#335EEA"></path>
+              <rect id="Rectangle-28" fill="#335EEA" opacity="0.3"
+                transform="translate(12.000000, 12.000000) rotate(-345.000000) translate(-12.000000, -12.000000) "
+                x="11" y="4" width="2" height="16" rx="1"></rect>
+            </g>
+          </svg>
+        </div>
+
+        <!-- Heading -->
+        <h3>
+          Smart identification
+        </h3>
+
+        <!-- Text -->
+        <p class="text-muted mb-0">
+          Automatically identify the signal source and switch to that channel
         </p>
 
       </div>
@@ -151,16 +278,80 @@ Template Name: Products
 
         <!-- Heading -->
         <h3>
-          Documentation for everything
+          Stay Connected
         </h3>
 
         <!-- Text -->
         <p class="text-muted mb-0">
-          We've written extensive documentation for components and tools, so you never have to reverse engineer
-          anything.
+          Support 2.4G/5G WIFI, LAN internet access.
         </p>
 
       </div>
+      <div class="col-12 col-md-4 text-center" data-aos="fade-up" data-aos-delay="100">
+
+        <!-- Icon -->
+        <div class="icon text-primary mb-3">
+          <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink">
+            <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+            <title>Stockholm-icons / Code / Code</title>
+            <desc>Created with Sketch.</desc>
+            <g id="Stockholm-icons-/-Code-/-Code" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+              <rect id="bound" x="0" y="0" width="24" height="24"></rect>
+              <path
+                d="M17.2718029,8.68536757 C16.8932864,8.28319382 16.9124644,7.65031935 17.3146382,7.27180288 C17.7168119,6.89328641 18.3496864,6.91246442 18.7282029,7.31463817 L22.7282029,11.5646382 C23.0906029,11.9496882 23.0906029,12.5503176 22.7282029,12.9353676 L18.7282029,17.1853676 C18.3496864,17.5875413 17.7168119,17.6067193 17.3146382,17.2282029 C16.9124644,16.8496864 16.8932864,16.2168119 17.2718029,15.8146382 L20.6267538,12.2500029 L17.2718029,8.68536757 Z M6.72819712,8.6853647 L3.37324625,12.25 L6.72819712,15.8146353 C7.10671359,16.2168091 7.08753558,16.8496835 6.68536183,17.2282 C6.28318808,17.6067165 5.65031361,17.5875384 5.27179713,17.1853647 L1.27179713,12.9353647 C0.909397125,12.5503147 0.909397125,11.9496853 1.27179713,11.5646353 L5.27179713,7.3146353 C5.65031361,6.91246155 6.28318808,6.89328354 6.68536183,7.27180001 C7.08753558,7.65031648 7.10671359,8.28319095 6.72819712,8.6853647 Z"
+                id="Combined-Shape" fill="#335EEA"></path>
+              <rect id="Rectangle-28" fill="#335EEA" opacity="0.3"
+                transform="translate(12.000000, 12.000000) rotate(-345.000000) translate(-12.000000, -12.000000) "
+                x="11" y="4" width="2" height="16" rx="1"></rect>
+            </g>
+          </svg>
+        </div>
+
+        <!-- Heading -->
+        <h3>
+          One-button access
+        </h3>
+
+        <!-- Text -->
+        <p class="text-muted mb-0">
+          A whiteboard to streaming a video to surfing the internet- all in a tap.
+        </p>
+
+      </div>
+      <div class="col-12 col-md-4 text-center" data-aos="fade-up" data-aos-delay="100">
+
+        <!-- Icon -->
+        <div class="icon text-primary mb-3">
+          <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink">
+            <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+            <title>Stockholm-icons / Code / Code</title>
+            <desc>Created with Sketch.</desc>
+            <g id="Stockholm-icons-/-Code-/-Code" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+              <rect id="bound" x="0" y="0" width="24" height="24"></rect>
+              <path
+                d="M17.2718029,8.68536757 C16.8932864,8.28319382 16.9124644,7.65031935 17.3146382,7.27180288 C17.7168119,6.89328641 18.3496864,6.91246442 18.7282029,7.31463817 L22.7282029,11.5646382 C23.0906029,11.9496882 23.0906029,12.5503176 22.7282029,12.9353676 L18.7282029,17.1853676 C18.3496864,17.5875413 17.7168119,17.6067193 17.3146382,17.2282029 C16.9124644,16.8496864 16.8932864,16.2168119 17.2718029,15.8146382 L20.6267538,12.2500029 L17.2718029,8.68536757 Z M6.72819712,8.6853647 L3.37324625,12.25 L6.72819712,15.8146353 C7.10671359,16.2168091 7.08753558,16.8496835 6.68536183,17.2282 C6.28318808,17.6067165 5.65031361,17.5875384 5.27179713,17.1853647 L1.27179713,12.9353647 C0.909397125,12.5503147 0.909397125,11.9496853 1.27179713,11.5646353 L5.27179713,7.3146353 C5.65031361,6.91246155 6.28318808,6.89328354 6.68536183,7.27180001 C7.08753558,7.65031648 7.10671359,8.28319095 6.72819712,8.6853647 Z"
+                id="Combined-Shape" fill="#335EEA"></path>
+              <rect id="Rectangle-28" fill="#335EEA" opacity="0.3"
+                transform="translate(12.000000, 12.000000) rotate(-345.000000) translate(-12.000000, -12.000000) "
+                x="11" y="4" width="2" height="16" rx="1"></rect>
+            </g>
+          </svg>
+        </div>
+
+        <!-- Heading -->
+        <h3>
+          Touch screen technology 
+        </h3>
+
+        <!-- Text -->
+        <p class="text-muted mb-0">
+          Compatible with a finger, wet hand, gloved finger, stylus, or pen
+        </p>
+
+      </div>
+
     </div> <!-- / .row -->
   </div> <!-- / .container -->
 </section>
@@ -185,19 +376,19 @@ Template Name: Products
         <div class="row">
           <div class="col-6 mr-n5">
 
-            <img src="<?php bloginfo('template_directory');?>/assets/img/photos/photo-23.jpg" alt="..."
+            <img src="<?php bloginfo('template_directory');?>/assets/img/education/education-3.png" alt="..."
               class="img-fluid mb-4 rounded" data-aos="fade-right" data-aos-delay="100">
 
-            <img src="<?php bloginfo('template_directory');?>/assets/img/photos/photo-25.jpg" alt="..."
+            <img src="<?php bloginfo('template_directory');?>/assets/img/education/education-2.png" alt="..."
               class="img-fluid rounded" data-aos="fade-right" data-aos-delay="150">
 
           </div>
           <div class="col-6 mt-8">
 
-            <img src="<?php bloginfo('template_directory');?>/assets/img/photos/photo-22.jpg" alt="..."
+            <img src="<?php bloginfo('template_directory');?>/assets/img/education/education-4.png" alt="..."
               class="img-fluid mb-4 rounded" data-aos="fade-right">
 
-            <img src="<?php bloginfo('template_directory');?>/assets/img/photos/photo-24.jpg" alt="..."
+            <img src="<?php bloginfo('template_directory');?>/assets/img/education/education-1.png" alt="..."
               class="img-fluid rounded" data-aos="fade-right" data-aos-delay="50">
 
           </div>
@@ -208,18 +399,17 @@ Template Name: Products
 
         <!-- Heading -->
         <h2 class="font-weight-bold">
-          Show your friends and family where you've been.
+          Viwify For Education
         </h2>
 
         <!-- Text -->
         <p class="font-size-lg text-muted mb-4">
-          Staying connected while traveling can be tough, but Landkit makes it easy by automatically sharing your
-          experiences.
+          Create an interactive learning environment that compliments & enhances the architecture of your campus
         </p>
 
         <!-- Button -->
         <a href="mobile-app.html#!" class="btn btn-primary">
-          Learn more
+          Download Sheet
         </a>
 
       </div>
@@ -232,19 +422,19 @@ Template Name: Products
         <div class="row">
           <div class="col-6 mr-n5">
 
-            <img src="<?php bloginfo('template_directory');?>/assets/img/photos/photo-23.jpg" alt="..."
+            <img src="<?php bloginfo('template_directory');?>/assets/img/business/business-4.png" alt="..."
               class="img-fluid mb-4 rounded" data-aos="fade-right" data-aos-delay="100">
 
-            <img src="<?php bloginfo('template_directory');?>/assets/img/photos/photo-25.jpg" alt="..."
+            <img src="<?php bloginfo('template_directory');?>/assets/img/business/business-2.png" alt="..."
               class="img-fluid rounded" data-aos="fade-right" data-aos-delay="150">
 
           </div>
           <div class="col-6 mt-8">
 
-            <img src="<?php bloginfo('template_directory');?>/assets/img/photos/photo-22.jpg" alt="..."
+            <img src="<?php bloginfo('template_directory');?>/assets/img/business/business-3.png" alt="..."
               class="img-fluid mb-4 rounded" data-aos="fade-right">
 
-            <img src="<?php bloginfo('template_directory');?>/assets/img/photos/photo-24.jpg" alt="..."
+            <img src="<?php bloginfo('template_directory');?>/assets/img/business/business-1.png" alt="..."
               class="img-fluid rounded" data-aos="fade-right" data-aos-delay="50">
 
           </div>
@@ -255,66 +445,21 @@ Template Name: Products
 
         <!-- Heading -->
         <h2 class="font-weight-bold">
-          Show your friends and family where you've been.
+          Viwify For Business
         </h2>
 
         <!-- Text -->
         <p class="font-size-lg text-muted mb-4">
-          Staying connected while traveling can be tough, but Landkit makes it easy by automatically sharing your
-          experiences.
+          Engage, motivate & communicate to your customers & employees, better. Impact the way your business operates.
         </p>
 
         <!-- Button -->
         <a href="mobile-app.html#!" class="btn btn-primary">
-          Learn more
+          Download Sheet
         </a>
 
       </div>
     </div>
   </div> <!-- / .container -->
 </section>
-
-<!-- CTA
-    ================================================== -->
-<section class="py-8 py-md-11 bg-dark">
-  <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-12 col-md-10 col-lg-8 text-center">
-
-        <!-- Badge -->
-        <span class="badge badge-pill badge-gray-700-soft mb-4">
-          <span class="h6 font-weight-bold text-uppercase">Get started</span>
-        </span>
-
-        <!-- Heading -->
-        <h1 class="display-4 text-white">
-          Get Landkit and save your time.
-        </h1>
-
-        <!-- Text -->
-        <p class="font-size-lg text-muted mb-6 mb-md-8">
-          Stop wasting time trying to do it the "right way" and build a site from scratch. Landkit is faster, easier,
-          and you still have complete control.
-        </p>
-
-        <!-- Button -->
-        <a href="https://themes.getbootstrap.com/product/landkit/" target="_blank" class="btn btn-success lift">
-          Buy it now <i class="fe fe-arrow-right"></i>
-        </a>
-
-      </div>
-    </div> <!-- / .row -->
-  </div> <!-- / .container -->
-</section>
-
-<!-- SHAPE
-    ================================================== -->
-<div class="position-relative">
-  <div class="shape shape-bottom shape-fluid-x svg-shim text-gray-200">
-    <svg viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M0 48H1437.5H2880V0H2160C1442.5 52 720 0 720 0H0V48Z" fill="currentColor" />
-    </svg>
-  </div>
-</div>
-
 <?php get_footer(); ?>

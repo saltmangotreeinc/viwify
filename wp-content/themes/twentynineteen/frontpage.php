@@ -13,7 +13,7 @@ Template Name: Front Page
       <div class="col-12 col-md-5 col-lg-6 order-md-2">
 
         <!-- Image -->
-        <img src="<?php bloginfo('template_directory');?>/assets/img/illustrations/illustration-2.png"
+        <img src="<?php bloginfo('template_directory');?>/assets/img/viwify-banner.png"
           class="img-fluid mw-md-150 mw-lg-130 mb-6 mb-md-0" alt="..." data-aos="fade-up" data-aos-delay="100">
 
       </div>
@@ -50,7 +50,7 @@ Template Name: Front Page
       <div class="col-12 col-md-6 order-md-1">
 
         <!-- Image -->
-        <img src="<?php bloginfo('template_directory');?>/assets/img/illustrations/illustration-1.png" alt="..."
+        <img src="<?php bloginfo('template_directory');?>/assets/img/vivengage-series.png" alt="..."
           class="img-fluid mb-6 mb-md-0">
 
       </div>
@@ -169,19 +169,19 @@ Template Name: Front Page
         <div class="row">
           <div class="col-6 mr-n5">
 
-            <img src="<?php bloginfo('template_directory');?>/assets/img/photos/photo-23.jpg" alt="..."
+            <img src="<?php bloginfo('template_directory');?>/assets/img/education/education-3.png" alt="..."
               class="img-fluid mb-4 rounded" data-aos="fade-right" data-aos-delay="100">
 
-            <img src="<?php bloginfo('template_directory');?>/assets/img/photos/photo-25.jpg" alt="..."
+            <img src="<?php bloginfo('template_directory');?>/assets/img/education/education-2.png" alt="..."
               class="img-fluid rounded" data-aos="fade-right" data-aos-delay="150">
 
           </div>
           <div class="col-6 mt-8">
 
-            <img src="<?php bloginfo('template_directory');?>/assets/img/photos/photo-22.jpg" alt="..."
+            <img src="<?php bloginfo('template_directory');?>/assets/img/education/education-4.png" alt="..."
               class="img-fluid mb-4 rounded" data-aos="fade-right">
 
-            <img src="<?php bloginfo('template_directory');?>/assets/img/photos/photo-24.jpg" alt="..."
+            <img src="<?php bloginfo('template_directory');?>/assets/img/education/education-1.png" alt="..."
               class="img-fluid rounded" data-aos="fade-right" data-aos-delay="50">
 
           </div>
@@ -215,19 +215,19 @@ Template Name: Front Page
         <div class="row">
           <div class="col-6 mr-n5">
 
-            <img src="<?php bloginfo('template_directory');?>/assets/img/photos/photo-23.jpg" alt="..."
+            <img src="<?php bloginfo('template_directory');?>/assets/img/business/business-4.png" alt="..."
               class="img-fluid mb-4 rounded" data-aos="fade-right" data-aos-delay="100">
 
-            <img src="<?php bloginfo('template_directory');?>/assets/img/photos/photo-25.jpg" alt="..."
+            <img src="<?php bloginfo('template_directory');?>/assets/img/business/business-2.png" alt="..."
               class="img-fluid rounded" data-aos="fade-right" data-aos-delay="150">
 
           </div>
           <div class="col-6 mt-8">
 
-            <img src="<?php bloginfo('template_directory');?>/assets/img/photos/photo-22.jpg" alt="..."
+            <img src="<?php bloginfo('template_directory');?>/assets/img/business/business-3.png" alt="..."
               class="img-fluid mb-4 rounded" data-aos="fade-right">
 
-            <img src="<?php bloginfo('template_directory');?>/assets/img/photos/photo-24.jpg" alt="..."
+            <img src="<?php bloginfo('template_directory');?>/assets/img/business/business-1.png" alt="..."
               class="img-fluid rounded" data-aos="fade-right" data-aos-delay="50">
 
           </div>

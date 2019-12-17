@@ -578,9 +578,7 @@ Template Name: Products
 
         <!-- Text -->
         <p class="font-size-lg text-gray-700 mb-6 mb-md-6">
-          From printed maps to digital yet static maps on monitors to interactive touch screens, indoor wayfinding has
-          evolved over the decades. Deliver seamless image experiences and keep it super easy to navigate your campus
-          with Viwify VivEngage interactive displays.
+          From printed maps to digital yet static maps on monitors to interactive touch screens, indoor wayfinding has evolved over the decades. Deliver seamless image experiences and keep it super easy to navigate your campus with Viwify E series interactive displays.
         </p>
 
       </div>
@@ -602,9 +600,7 @@ Template Name: Products
 
         <!-- Text -->
         <p class="font-size-lg text-gray-700 mb-6 mb-md-6">
-          Guide & direct your guests, patients, students, or visitors to their desired locations with Viwify VivEngage
-          interactive displays. Transform the way your customers communicate with you & create a positive, engaging
-          experience for them, hasslefree.
+          Guide & direct your guests, patients, students, or visitors to their desired locations with Viwify E series interactive displays. Transform the way your customers communicate with you & create a positive, engaging experience for them, hasslefree.
         </p>
 
       </div>
@@ -613,7 +609,7 @@ Template Name: Products
       <div class="col-12 col-md-6 order-md-1">
 
         <!-- Image -->
-        <img src="<?php bloginfo('template_directory');?>/assets/img/product/video-conference.png" alt="..."
+        <img src="<?php bloginfo('template_directory');?>/assets/img/product/video-conferencing.png" alt="..."
           class="img-fluid mb-6 mb-md-0">
 
       </div>
@@ -626,9 +622,7 @@ Template Name: Products
 
         <!-- Text -->
         <p class="font-size-lg text-gray-700 mb-6 mb-md-6">
-          Empower your team to collaborate & enhance professional efficacy with VivEngage interactive displays- the
-          smarter solution for your business. Grab incredible business advantages & foster creativity with seamless
-          video conferencing capabilities.
+          Empower your team to collaborate & enhance professional efficacy with Viwify E series interactive displays- the smarter solution for your business. Grab incredible business advantages & foster creativity with seamless video conferencing capabilities.
         </p>
 
       </div>
@@ -650,9 +644,7 @@ Template Name: Products
 
         <!-- Text -->
         <p class="font-size-lg text-gray-700 mb-6 mb-md-6">
-          Interactive displays captivate & boost student engagement. Support active learning & offer much more learning
-          opportunities to your students- from kinesthetic learners to auditory & visual learners to early learners &
-          advanced learners.
+          Interactive displays captivate & boost student engagement. Support active learning & offer much more learning opportunities to your students- from kinesthetic learners to auditory & visual learners to early learners & advanced learners.
         </p>
 
       </div>

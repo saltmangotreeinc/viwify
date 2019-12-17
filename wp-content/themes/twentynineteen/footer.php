@@ -53,7 +53,7 @@
 <?php endif; ?>
 <!-- FOOTER
     ================================================== -->
-<footer class="py-8 py-md-11 bg-gray-200">
+<footer class="pt-8 pt-md-11 bg-gray-200">
   <div class="container">
     <div class="row">
       <div class="col-12 col-md-12 col-lg-4 text-center pb-md-8 text-lg-left">
@@ -66,6 +66,14 @@
         <p class="text-gray-700 mb-2">
           Future-Ready Communications.
         </p>
+        <h6 class="font-weight-bold text-gray-700 mb-3">
+          Inviot DMCC<br />
+          Office Number 1110<br />
+          Tiffany Towers,<br />
+          Cluster W<br />
+          Jumeirah Lake Towers, Dubai <br />
+          PO Box: 80003
+        </h6>
 
         <!-- Social -->
         <ul class="list-unstyled list-inline list-social mb-6 mb-md-0">
@@ -158,6 +166,13 @@
 
       </div>
     </div> <!-- / .row -->
+    <div class="row py-4 py-md-6">
+      <div class="col-12">
+        <h6 class="font-weight-bold text-uppercase text-gray-700 text-center">
+          Copyright © Viwify Inc. 2019-2020 | Viwify is a part of Inviot Systems India Pvt. Ltd.
+        </h6>
+      </div>
+    </div>
   </div> <!-- / .container -->
 </footer>
 

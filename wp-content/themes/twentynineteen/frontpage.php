@@ -198,12 +198,9 @@ Template Name: Front Page
         </p>
 
         <!-- Button -->
-        <a href="#!" class="btn btn-primary">
+        <a href="<?php bloginfo('template_directory');?>/assets/viwify-spec-sheet.pdf" download="viwify-spec-sheet" class="btn btn-primary">
           Download Sheet
         </a>
-        <!-- <a href="<?php bloginfo('template_directory');?>/assets/img/brand.svg" download="brand" class="btn btn-primary">
-          Download Sheet
-        </a> -->
 
       </div>
     </div> <!-- / .row -->
@@ -247,12 +244,9 @@ Template Name: Front Page
         </p>
 
         <!-- Button -->
-        <a href="#!" class="btn btn-primary">
+        <a href="<?php bloginfo('template_directory');?>/assets/viwify-spec-sheet.pdf" download="viwify-spec-sheet" class="btn btn-primary">
           Download Sheet
         </a>
-        <!-- <a href="<?php bloginfo('template_directory');?>/assets/img/brand.svg" download="brand" class="btn btn-primary">
-          Download Sheet
-        </a> -->
 
       </div>
     </div>

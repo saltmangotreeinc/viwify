@@ -1,0 +1,136 @@
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-weight: normal;
+}
+
+.sh--56 {
+  font-size: 56px;
+  @include viewport(mob) {
+    font-size: 48px;
+  }
+}
+
+.sh--40 {
+  font-size: 40px;
+  @include viewport(mob) {
+    font-size: 32px;
+  }
+}
+
+.sh--32 {
+  font-size: 32px;
+  @include viewport(mob) {
+    font-size: 24px;
+  }
+}
+
+.sh--24 {
+  font-size: 24px;
+  @include viewport(mob) {
+    font-size: 20px;
+  }
+}
+
+.sh--20 {
+  font-size: 20px;
+  @include viewport(mob) {
+    font-size: 18px;
+  }
+}
+
+.sh--18 {
+  font-size: 18px;
+  @include viewport(mob) {
+    font-size: 16px;
+  }
+}
+
+.sh--16 {
+  font-size: 16px;
+  @include viewport(mob) {
+    font-size: 14px;
+  }
+}
+
+.sh--14 {
+  font-size: 14px;
+  @include viewport(mob) {
+    font-size: 12px;
+  }
+}
+
+.sh--12 {
+  font-size: 12px;
+  @include viewport(mob) {
+    font-size: 10px;
+  }
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.618;
+  @include viewport(mob) {
+    font-size: 14px;
+  }
+}
+
+.sh--thin {
+  font-weight: $font-weight-thin;
+}
+
+.sh--semibold {
+  font-weight: $font-weight-semibold;
+}
+
+.sh--white {
+  color: $sh-color--white;
+}
+
+.sh--light {
+  color: rgba($sh-color--black, 0.6);
+}
+
+.sh--blue {
+  color: $sh-color--blue;
+}
+
+.sh--uppercase {
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.sh--strike {
+  text-decoration: line-through;
+}
+
+.sh-list {
+  @include padding(0 0 0 16px);
+  @include margin(0);
+  li {
+      font-weight: $font-weight-normal;
+      color: $sh-color--black;
+      line-height: 1.6;
+      font-size: inherit;
+      @include margin(0 0 8px 8px);
+
+      &:before {
+        display: none;
+      }
+
+      &:last-child {
+        margin-bottom: 0px !important;
+      }
+  }
+}
+
+.sh-list--unordered {
+  li {
+    list-style: disc;
+  }
+}
+
+.sh-list--ordered {
+  li {
+    list-style: decimal;
+  }
+}

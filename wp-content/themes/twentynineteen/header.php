@@ -18,23 +18,12 @@
   <!-- Required meta tags -->
   <meta charset="<?php bloginfo( 'charset' ); ?>" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="profile" href="https://gmpg.org/xfn/11" />
   <?php wp_head(); ?>
-  <!-- Libs CSS -->
-  <link rel="stylesheet" href="<?php bloginfo('template_directory');?>/assets/fonts/Feather/feather.css">
-  <link rel="stylesheet" href="<?php bloginfo('template_directory');?>/assets/libs/flickity/dist/flickity.min.css">
-  <link rel="stylesheet" href="<?php bloginfo('template_directory');?>/assets/libs/flickity-fade/flickity-fade.css">
-  <link rel="stylesheet" href="<?php bloginfo('template_directory');?>/assets/libs/aos/dist/aos.css">
-  <link rel="stylesheet" href="<?php bloginfo('template_directory');?>/assets/libs/jarallax/dist/jarallax.css">
-  <link rel="stylesheet" href="<?php bloginfo('template_directory');?>/assets/libs/highlightjs/styles/vs2015.css">
-  <link rel="stylesheet"
-    href="<?php bloginfo('template_directory');?>/assets/libs/@fancyapps/fancybox/dist/jquery.fancybox.min.css">
 
-  <!-- Map -->
-  <link href='https://api.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.css' rel='stylesheet' />
-
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <!-- Theme CSS -->
-  <link rel="stylesheet" href="<?php bloginfo('template_directory');?>/assets/css/theme.min.css">
+  <link rel="stylesheet" href="<?php bloginfo('template_directory');?>/assets/css/style.css">
 
   <title>Vivify</title>
 </head>

@@ -4,7 +4,7 @@
   transition: all 0.3s;
   top: 0;
   left: 0;
-  background-color: $sh-color--white;
+  background-color: $vw-color--white;
   z-index: 10;
   
   @include padding(16px 32px 24px);
@@ -42,41 +42,17 @@
       &:focus,
       &.active {
         .nav-link {
-          border-bottom: 2px solid $sh-color--red;
+          border-bottom: 2px solid $vw-color--red;
         }
       }
     }
   }
 
-  .navbar-right {
-    @include flexbox();
-    @include flex-direction(row);
-    @include justify-content(flex-start);
-    @include align-items(center);
+  .vw-button {
+    height: 36px;
+    @include margin(0 0 0 16px);
     @include viewport(tablet) {
-      @include flex-direction(column);
-      @include align-items(flex-start);
-      
-      .sh-social--item {
-        @include margin(0 32px 0 0);
-      }
-    }
-
-    .sh-social--row {
-      @include min-max(991, 1100) {
-        display: none !important;
-      }
-      
-      @include viewport(tablet) {
-        @include margin(32px 0);
-      }
-    }
-
-    .sh-button {
-      @include margin(0 0 0 16px);
-      @include viewport(tablet) {
-        @include margin(0 0 16px);
-      }
+      @include margin(16px 0);
     }
   }
 }

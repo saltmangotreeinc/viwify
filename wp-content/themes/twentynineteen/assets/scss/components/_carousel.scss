@@ -7,12 +7,12 @@
   button {
     width: 10px;
     height: 10px;
-    background: rgba($sh-color--black, 0.2) !important;
+    background: rgba($vw-color--black, 0.2) !important;
     border-radius: 100%;
     @include margin(0 6px);
 
     &.active, &:hover {
-      background: $sh-color--black !important;
+      background: $vw-color--black !important;
     }
   }
 }

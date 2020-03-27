@@ -1,13 +1,50 @@
-.sh-cta--wrapper {
-  background-image: url('https://static.surveysparrow.com/site/assets/temporary/travel/cta-background.png');
-  background-position: center;
-  background-size: cover;
+.vw-cta--wrapper {
+  background-color: $vw-color--yellow;
+  background-position: 100%;
   background-repeat: no-repeat;
-  background-color: black;
+  background-size: 600px;
   @include margin(64px 0 0);
-  @include padding(128px 0);
+  @include padding(96px 0);
 
-  .sh-button {
-    @include padding(null 48px);
+  @include viewport(lap-max) {
+    background-position: 110%;
+  }
+
+  @include viewport(tab-min) {
+    background-position: 150%;
+  }
+
+  @include viewport(tab-min) {
+    background-position: 165%;
+  }
+
+  @include max(840) {
+    background-image: none !important;
+  }
+
+  @include viewport(mob) {
+    h2, h3, p {
+      text-align: center;
+    }
+  }
+
+  .vw-cta--left {
+    width: 50%;
+    @include viewport(lap-max) {
+      width: 45%;
+      h1 {
+        font-size: 48px;
+      }
+    }
+    @include viewport(tab-min) {
+      width: 65%;
+      @include padding(0 0 0 64px)
+    }
+
+    @include viewport(mob) {
+      width: 85%;
+      @include padding(0);
+      @include margin(auto);
+    }
   }
 }

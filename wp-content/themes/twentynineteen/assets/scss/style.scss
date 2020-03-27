@@ -13,6 +13,7 @@
 @import "mixins/padding";
 @import "mixins/media_query";
 @import "mixins/flex";
+@import "mixins/common";
 
 @import "typography";
 
@@ -22,6 +23,7 @@
 @import 'components/carousel';
 @import 'components/cards';
 @import 'components/cta';
+@import 'components/zig-zag';
 
 @import "navigation";
 @import "utilities";
@@ -31,11 +33,13 @@
 
 @import "footer";
 
+html, body {
+  * {
+    font-family: $base-font-family;
+  }
+}
+
 body {
-  font-family: $base-font-family;
-
-  animation: fadeIn 0.3s both;
-
   *:focus {
     outline: none;
   }

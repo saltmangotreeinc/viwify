@@ -1,62 +1,70 @@
-.sh-button {
-  display: inline-block;
-  border-radius: 0px;
+.vw-button {
+  @include inline-flex();
+  @include flex-direction(row);
+  @include justify-content(center);
+  @include align-items(center);
+  border-radius: $border-radius-sm;
   border: thin solid transparent;
   font-size: 16px;
   font-weight: $font-weight-normal;
   transition: all 0.3s;
   text-decoration: none;
   line-height: 1;
-  @include padding(12px 16px);
+  height: 60px;
+  @include padding(null 24px);
   &:hover {
     text-decoration: none;
     transform: translateY(-2px);
   }
-}
 
-.sh-button--primary {
-  background-color: $sh-color--black;
-  color: $sh-color--white;
-
-  &:hover {
-    color: $sh-color--white;
+  @include viewport(mob) {
+    width: 100%;
   }
 }
 
-.sh-button--secondary {
-  background-color: $sh-color--grey;
-  color: $sh-color--black;
+.vw-button--primary {
+  background-color: $vw-color--primary;
+  color: $vw-color--white;
 
   &:hover {
-    color: $sh-color--black;
+    color: $vw-color--white;
   }
 }
 
-.sh-button--border {
-  background-color: $sh-color--white;
-  color: $sh-color--black;
-  border: 2px solid $sh-color--black;
+.vw-button--secondary {
+  background-color: $vw-color--grey;
+  color: $vw-color--black;
 
   &:hover {
-    color: $sh-color--black;
+    color: $vw-color--black;
   }
 }
 
-.sh-link {
+.vw-button--border {
+  background-color: $vw-color--white;
+  color: $vw-color--black;
+  border: 2px solid $vw-color--black;
+
+  &:hover {
+    color: $vw-color--black;
+  }
+}
+
+.vw-link {
   display: inline-block;
-  color: $sh-color--black;
+  color: $vw-color--black;
   text-decoration: none;
   transition: all 0.3s;
   &:hover {
-    color: $sh-color--black;
+    color: $vw-color--black;
     text-decoration: none;
     transform: translateY(-2px);
   }
 }
 
-.sh--badge {
-  background-color: $sh-color--light-blue;
-  color: $sh-color--white;
+.vw--badge {
+  background-color: $vw-color--light-blue;
+  color: $vw-color--white;
   border-radius: $border-radius-sm;
   white-space: nowrap;
   @include padding(4px 16px);

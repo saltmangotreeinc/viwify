@@ -1,5 +1,5 @@
 footer {
-  background-color: $sh-color--env;
+  background-color: $vw-color--env;
   @include padding(64px 0);
 
   @include viewport(mob) {
@@ -12,18 +12,24 @@ footer {
     cursor: pointer;
     font-size: 16px;
     font-weight: normal;
-    color: rgba($sh-color--black, 0.7);
+    color: rgba($vw-color--black, 0.7);
     transition: all 0.3s;
     text-decoration: none;
     @include margin(0 0 8px);
 
     &:hover {
-      color: $sh-color--black;
+      color: $vw-color--black;
       text-decoration: none;
     }
 
     @include viewport(mob) {
       font-weight: 14px;
+    }
+    
+  }
+  p {
+    a {
+      font-size: inherit;
     }
   }
 }

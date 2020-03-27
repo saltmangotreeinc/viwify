@@ -1,177 +1,61 @@
-.sh-home-banner--wrapper {
-  width: 100%;
+.vw-home-banner--wrapper {
   @include padding($navbar-height 32px 32px);
+  @include margin(0 0 48px);
 
-  @include viewport(tablet) {
-    @include padding(null 0 16px);
+  @include viewport(mob) {
+    @include padding(null 16px);
   }
 
-  img {
-    border-radius: $border-radius-sm;
-  }
-}
-
-.sh-home--section {
-  @include padding(64px 0);
-
-  @include viewport(tablet) {
-    @include padding(40px 0);
-  }
-
-  .sh-package--info {
-    @include flexbox();
-    @include flex-direction(row);
-    @include justify-content(space-between);
-    @include align-items(flex-end);
-    @include flex-wrap(wrap);
-
-    @include viewport(tablet) {
-      @include padding(24px null null);
+  .vw-home-banner--container {
+    width: 100%;
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    
+    @include padding(120px 0);
+    
+    @include viewport(tab-min) {
+      background-position: top left;
     }
 
-    .sh-package--item {
-      width: calc(25% - 16px);
+    @include viewport(mob) {
+      border-radius: $border-radius-lg;
+      background-color: $vw-color--env;
+      background-image: none !important;
+      @include padding(96px 0 120px);
 
-      @include viewport(xs-mob) {
-        width: calc(50% - 16px);
-
-        h4 {
-          @include margin(null 0 16px)
-        }
-      }
-
-      .sh-package--preview {
-        height: 200px;
-        border-radius: $border-radius-base;
-        overflow: hidden;
-
-        @include flexbox();
-        @include flex-direction(row);
-        @include justify-content(center);
-        @include align-items(center);
-
-        @include viewport(desk) {
-          height: 232px;
-        }
-
-        @include viewport(tablet) {
-          height: 232px;
-        }
-
-        &.sh-package--preview-large {
-          height: 240px;
-
-          @include viewport(tablet) {
-            height: 232px;
-          }
-
-          @include viewport(desk) {
-            height: 280px;
-          }
-        }
-
-        img {
-          width: auto;
-          min-height: 100%;
-        }
+      h1, p {
+        text-align: center;
       }
     }
-  }
 
-  .sh-card--wrapper {
-    .sh-card--item {
-      svg {
-        @include margin(0 16px 0 0);
+    .vw-home-banner--left {
+      width: 50%;
+      @include viewport(lap-max) {
+        width: 45%;
+        h1 {
+          font-size: 48px;
+        }
+      }
+      @include viewport(tab-min) {
+        width: 65%;
+        @include padding(0 0 0 64px)
+      }
 
-        &:last-child {
-          @include margin(0);
-        }
-        &.disabled {
-          opacity: 0.5;
-        }
+      @include viewport(mob) {
+        width: 85%;
+        @include padding(0);
+        @include margin(auto);
       }
     }
   }
 }
 
-.sh-place--wrapper {
-  @include flexbox();
-  @include flex-direction(row);
-  @include justify-content(space-between);
-  @include align-items(flex-end);
-  @include flex-wrap(wrap);
-  @include margin(48px 0 0);
-
-  .sh-place--column {
-    @include flexbox();
-    @include flex-direction(column);
-    @include justify-content(center);
-    @include align-items(flex-start);
-
-    width: calc(20% - 16px);
-
-    @include viewport(xs-mob) {
-      width: calc(50% - 8px);
-
-      h4 {
-        @include margin(null 0 16px)
-      }
-    }
-
-    &:last-child {
-      @include viewport(xs-mob) {
-        @include flex-direction(row);
-        @include align-items(center);
-        @include justify-content(space-between);
-        width: 100%;
-
-        .sh-place--item {
-          width: calc(50% - 8px);
-
-          .sh-place--preview {
-            height: 320px;
-          }
-        }
-      }
-    }
-
-    .sh-place--item {
-      width: 100%;
-      position: relative;
-      display: block;
-      @include margin(0 0 16px);
-
-      h3 {
-        color: $sh-color--white;
-        position: absolute;
-        left: 8px;
-        bottom: 12px;
-
-        @include viewport(tab-min) {
-          font-size: 20px;
-        }
-      }
-
-      .sh-place--preview {
-        max-width: 100%;
-        height: 200px;
-        border-radius: $border-radius-base;
-        overflow: hidden;
-
-        @include flexbox();
-        @include flex-direction(row);
-        @include justify-content(center);
-        @include align-items(center);
-
-        &.sh-place--preview-large {
-          height: 320px;
-        }
-
-        img {
-          width: auto;
-          min-height: 100%;
-        }
-      }
-    }
+.vw-home--section {
+  @include padding(72px 0);
+  &.vw-home--section--grey {
+    background-color: $vw-color--env;
+    @include margin(72px 0);
+    @include padding(120px 0);
   }
 }

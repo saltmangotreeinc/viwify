@@ -1002,44 +1002,44 @@
 
 //Normal
 .border {
-  border: thin solid $sh-color--border;
+  border: thin solid $vw-color--border;
 }
 
 .border-top {
-  border-top: thin solid $sh-color--border;
+  border-top: thin solid $vw-color--border;
 }
 
 .border-right {
-  border-right: thin solid $sh-color--border;
+  border-right: thin solid $vw-color--border;
 }
 
 .border-bottom {
-  border-bottom: thin solid $sh-color--border;
+  border-bottom: thin solid $vw-color--border;
 }
 
 .border-left {
-  border-left: thin solid $sh-color--border;
+  border-left: thin solid $vw-color--border;
 }
 
 //Dashed
 .border--dashed {
-  border: thin dashed $sh-color--border;
+  border: thin dashed $vw-color--border;
 }
 
 .border-top--dashed {
-  border-top: thin dashed $sh-color--border;
+  border-top: thin dashed $vw-color--border;
 }
 
 .border-right--dashed {
-  border-right: thin dashed $sh-color--border;
+  border-right: thin dashed $vw-color--border;
 }
 
 .border-bottom--dashed {
-  border-bottom: thin dashed $sh-color--border;
+  border-bottom: thin dashed $vw-color--border;
 }
 
 .border-left--dashed {
-  border-left: thin dashed $sh-color--border;
+  border-left: thin dashed $vw-color--border;
 }
 
 //Zero
@@ -1066,11 +1066,11 @@
 //Background
 
 .background-color--white {
-  background-color: $sh-color--white;
+  background-color: $vw-color--white;
 }
 
 .background-color--black {
-  background-color: $sh-color--black;
+  background-color: $vw-color--black;
 }
 
 //Float

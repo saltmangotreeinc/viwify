@@ -1,114 +1,134 @@
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
   font-weight: normal;
-}
+  line-height: 1;
 
-.sh--56 {
-  font-size: 56px;
-  @include viewport(mob) {
-    font-size: 48px;
-  }
-}
-
-.sh--40 {
-  font-size: 40px;
-  @include viewport(mob) {
-    font-size: 32px;
-  }
-}
-
-.sh--32 {
-  font-size: 32px;
-  @include viewport(mob) {
-    font-size: 24px;
-  }
-}
-
-.sh--24 {
-  font-size: 24px;
-  @include viewport(mob) {
-    font-size: 20px;
-  }
-}
-
-.sh--20 {
-  font-size: 20px;
-  @include viewport(mob) {
-    font-size: 18px;
-  }
-}
-
-.sh--18 {
-  font-size: 18px;
-  @include viewport(mob) {
-    font-size: 16px;
-  }
-}
-
-.sh--16 {
-  font-size: 16px;
-  @include viewport(mob) {
-    font-size: 14px;
-  }
-}
-
-.sh--14 {
-  font-size: 14px;
-  @include viewport(mob) {
-    font-size: 12px;
-  }
-}
-
-.sh--12 {
-  font-size: 12px;
-  @include viewport(mob) {
-    font-size: 10px;
+  @include viewport(tab-min) {
+    line-height: 1.2;
   }
 }
 
 p {
-  font-size: 16px;
-  line-height: 1.618;
+  font-size: 18px;
+  font-weight: $font-weight-thin;
+  line-height: 1.5;
+  @include margin(0);
+  @include viewport(tab-min) {
+    font-size: 16px;
+  }
   @include viewport(mob) {
+    font-size: 14px;
+    text-align: justify;
+  }
+}
+
+
+.vw--56 {
+  font-size: 56px;
+  @include viewport(tab-min) {
+    font-size: 48px;
+  }
+}
+
+.vw--40 {
+  font-size: 40px;
+  @include viewport(tab-min) {
+    font-size: 32px;
+  }
+}
+
+.vw--32 {
+  font-size: 32px;
+  @include viewport(tab-min) {
+    font-size: 24px;
+  }
+}
+
+.vw--24 {
+  font-size: 24px;
+  @include viewport(tab-min) {
+    font-size: 20px;
+  }
+}
+
+.vw--20 {
+  font-size: 20px;
+  @include viewport(tab-min) {
+    font-size: 18px;
+  }
+}
+
+.vw--18 {
+  font-size: 18px;
+  @include viewport(tab-min) {
+    font-size: 16px;
+  }
+}
+
+.vw--16 {
+  font-size: 16px;
+  @include viewport(tab-min) {
     font-size: 14px;
   }
 }
 
-.sh--thin {
+.vw--14 {
+  font-size: 14px;
+  @include viewport(tab-min) {
+    font-size: 12px;
+  }
+}
+
+.vw--12 {
+  font-size: 12px;
+  @include viewport(tab-min) {
+    font-size: 10px;
+  }
+}
+
+.vw--thin {
   font-weight: $font-weight-thin;
 }
 
-.sh--semibold {
+.vw--normal {
+  font-weight: $font-weight-normal;
+}
+
+.vw--semibold {
   font-weight: $font-weight-semibold;
 }
 
-.sh--white {
-  color: $sh-color--white;
+.vw--bold {
+  font-weight: $font-weight-semibold;
 }
 
-.sh--light {
-  color: rgba($sh-color--black, 0.6);
+.vw--white {
+  color: $vw-color--white;
 }
 
-.sh--blue {
-  color: $sh-color--blue;
+.vw--light {
+  color: rgba($vw-color--black, 0.6);
 }
 
-.sh--uppercase {
+.vw--blue {
+  color: $vw-color--blue;
+}
+
+.vw--uppercase {
   text-transform: uppercase;
   letter-spacing: 0.5px;
 }
 
-.sh--strike {
+.vw--strike {
   text-decoration: line-through;
 }
 
-.sh-list {
+.vw-list {
   @include padding(0 0 0 16px);
   @include margin(0);
   li {
       font-weight: $font-weight-normal;
-      color: $sh-color--black;
+      color: $vw-color--black;
       line-height: 1.6;
       font-size: inherit;
       @include margin(0 0 8px 8px);
@@ -123,13 +143,13 @@ p {
   }
 }
 
-.sh-list--unordered {
+.vw-list--unordered {
   li {
     list-style: disc;
   }
 }
 
-.sh-list--ordered {
+.vw-list--ordered {
   li {
     list-style: decimal;
   }

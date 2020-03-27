@@ -22,19 +22,17 @@
 
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:300,400,500,600,700&display=swap" rel="stylesheet">
   <!-- Theme CSS -->
-  <link rel="stylesheet" href="<?php bloginfo('template_directory');?>/assets/css/style.css">
+  <link rel="stylesheet" href="<?php bloginfo('template_directory');?>/assets/css/style.css<?php echo '?v='.date('dmY.His'); ?>">
 
   <title>Vivify</title>
 </head>
 
 <body>
   <!-- NAVBAR ================================================== -->
-  <?php if ( is_page_template('products.php')): ?>
-    <nav class="navbar navbar-expand-lg navbar-dark navbar-togglable fixed-top">
-  <?php else: ?>
-    <nav class="navbar navbar-expand-lg navbar-light bg-white">
-  <?php endif; ?>
+  <nav class="navbar navbar-expand-lg navbar-light bg-white">
     <div class="container">
       <!-- Brand -->
       <a class="navbar-brand" href="/">
@@ -49,34 +47,25 @@
 
       <!-- Collapse -->
       <div class="collapse navbar-collapse" id="navbarCollapse">
-
-        <!-- Toggler -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
-          aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-          <i class="fe fe-x"></i>
-        </button>
-
         <!-- Navigation -->
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item dropdown">
-            <a class="nav-link" href="/products">
-              Products
-            </a>
-          </li>
-          <!-- <li class="nav-item dropdown">
-            <a class="nav-link" href="/use-cases">
-              Use Case
-            </a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link" href="/industries">
-              Industry
-            </a>
-          </li> -->
-          <li class="nav-item dropdown">
+          <li class="nav-item">
             <a class="nav-link" href="/about-us">
               About Us
             </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/products">
+              Blog
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/products">
+              Support
+            </a>
+          </li>
+          <li>
+            <a href="#!" class="vw-button vw-button--primary">Book a Demo</a>
           </li>
         </ul>
       </div>

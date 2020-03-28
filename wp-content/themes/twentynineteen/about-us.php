@@ -191,8 +191,8 @@ Template Name: About Us
 </section>
 <section class="py-10 py-md-11">
 <div class="container">
-        <form name="frmContact" id="" frmContact"" method="post"
-            action="" enctype="multipart/form-data"
+        <form name="frmContact" method="post"
+            enctype="multipart/form-data"
             onsubmit="return validateContactForm()">
 
             <div class="input-row">
@@ -234,83 +234,75 @@ Template Name: About Us
         </form>
     </div>
 </section>
-<script src="https://code.jquery.com/jquery-2.1.1.min.js"
-        type="text/javascript"></script>
-    <script type="text/javascript">
-        function validateContactForm() {
-            var valid = true;
 
-            $(".info").html("");
-            $(".input-field").css('border', '#e0dfdf 1px solid');
-            var userName = $("#userName").val();
-            var userEmail = $("#userEmail").val();
-            var subject = $("#subject").val();
-            var content = $("#content").val();
-            
-            if (userName == "") {
-                $("#userName-info").html("Required.");
-                $("#userName").css('border', '#e66262 1px solid');
-                valid = false;
-            }
-            if (userEmail == "") {
-                $("#userEmail-info").html("Required.");
-                $("#userEmail").css('border', '#e66262 1px solid');
-                valid = false;
-            }
-            if (!userEmail.match(/^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/))
-            {
-                $("#userEmail-info").html("Invalid Email Address.");
-                $("#userEmail").css('border', '#e66262 1px solid');
-                valid = false;
-            }
+<script type="text/javascript">
+function validateContactForm() {
+    var valid = true;
 
-            if (subject == "") {
-                $("#subject-info").html("Required.");
-                $("#subject").css('border', '#e66262 1px solid');
-                valid = false;
-            }
-            if (content == "") {
-                $("#userMessage-info").html("Required.");
-                $("#content").css('border', '#e66262 1px solid');
-                valid = false;
-            }
-            return valid;
+    $(".info").html("");
+    $(".input-field").css('border', '#e0dfdf 1px solid');
+    var userName = $("#userName").val();
+    var userEmail = $("#userEmail").val();
+    var subject = $("#subject").val();
+    var content = $("#content").val();
+    
+    if (userName == "") {
+        $("#userName-info").html("Required.");
+        $("#userName").css('border', '#e66262 1px solid');
+        valid = false;
+    }
+    if (userEmail == "") {
+        $("#userEmail-info").html("Required.");
+        $("#userEmail").css('border', '#e66262 1px solid');
+        valid = false;
+    }
+    if (!userEmail.match(/^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/))
+    {
+        $("#userEmail-info").html("Invalid Email Address.");
+        $("#userEmail").css('border', '#e66262 1px solid');
+        valid = false;
+    }
+
+    if (subject == "") {
+        $("#subject-info").html("Required.");
+        $("#subject").css('border', '#e66262 1px solid');
+        valid = false;
+    }
+    if (content == "") {
+        $("#userMessage-info").html("Required.");
+        $("#content").css('border', '#e66262 1px solid');
+        valid = false;
+    }
+    if(valid){
+      //ajax
+      $.ajax({
+        type:"post",
+        url:"<?php bloginfo('template_directory');?>/admin/contact.php",
+        data: 
+        {  
+          userName :userName,
+          userEmail:userEmail,
+          subject: subject,
+          content: content
+        },
+        cache:false,
+        success: function (html) 
+        {
+          console.log('Inserted into db:', $.parseJSON(html));
+          $('#msg').html(html);
+        },
+        error : function(err) 
+        {
+          console.log('Error:',err);
         }
+        });
+      document.getElementById("userName").value = '';
+      document.getElementById("userEmail").value = '';
+      document.getElementById("subject").value = '';
+      document.getElementById("content").value = '';
+    } 
+    return false;
+}
 </script>
-
-<?php
-
-if(!empty($_POST["send"])) {
-	$name = $_POST["userName"];
-	$email = $_POST["userEmail"];
-	$subject = $_POST["subject"];
-  $content = $_POST["content"];
-  insertIntoContact($name,$email,$subject,$content);
-}
-
-function insertIntoContact($name,$email,$subject,$content){
-  global $wpdb;
-  $prefix ='wp_';
-  $table = $wpdb->$prefix.'wp_contact';
-  $data = array('name' => $name, 'email' => $email, 'subject'=>$subject, 'content'=>$content);
-  $format = array('%s','%s');
-  echo "format---<=>",$email;
-  $wpdb->insert($table,$data,$format);
-  $my_id = $wpdb->insert_id;
-  if($my_id ==0){
-    echo "Error:".$wpdb->last_error;
-  } else {
-    echo "Inserted into table".$my_id;
-  }
-}
-
-function show_all_tables(){
-  global $wpdb;
-  foreach($wpdb->get_results("SHOW TABLES", ARRAY_N) as $table): 
-      echo $table[0]."<br/>"; 
-  endforeach;
-} 
-?>
-
 
 <?php get_footer(); ?>

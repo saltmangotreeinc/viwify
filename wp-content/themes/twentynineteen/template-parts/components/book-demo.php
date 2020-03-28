@@ -8,7 +8,7 @@
 
 <script type="text/javascript">
     function submitEmail(){
-      var email=document.getElementById('demo-email').value;
+      var email = $('.vw-book-demo').find('input[name="email"]').val();
       $.ajax({
         type:"post",
         url:"<?php bloginfo('template_directory');?>/admin/submit-email.php",
@@ -27,7 +27,7 @@
           console.log('Error:',err);
         }
         });
-      document.getElementById('demo-email').value = '';
+      $('.vw-book-demo').find('input[name="email"]').val('');
       return false;
      }
 </script>

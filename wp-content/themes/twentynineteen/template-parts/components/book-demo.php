@@ -11,7 +11,7 @@
       var email=document.getElementById('demo-email').value;
       $.ajax({
         type:"post",
-        url:"<?php bloginfo('template_directory');?>/template-parts/components/submit-email.php",
+        url:"<?php bloginfo('template_directory');?>/admin/submit-email.php",
         data: 
         {  
           'email' :email,

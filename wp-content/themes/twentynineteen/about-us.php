@@ -191,48 +191,58 @@ Template Name: About Us
 </section>
 <section class="py-10 py-md-11">
 <div class="container">
-        <form name="frmContact" method="post"
-            enctype="multipart/form-data"
-            onsubmit="return validateContactForm()">
+  <form name="about-us-form" method="post" onsubmit="return validateContactForm()">
+      <div class="form-group row">
+          <div class="col input-row">
+            <input type="text" class="form-control input-field" placeholder="First Name" name="firstName" id="firstName" />
+            <span id="firstName-info" class="info"></span>
+          </div>
+          <div class="col input-row">
+            <input type="text" class="form-control input-field" placeholder="Last Name" name="lastName" id="lastName" />
+            <span id="lastName-info" class="info"></span>
+          </div>
+        </div>
+        <div class="form-group row">
+          <div class="col input-row">
+            <input type="text" class="form-control input-field" placeholder="Company" name="company" id="company" />
+            <span id="company-info" class="info"></span>
+          </div>
+          <div class="col input-row">
+            <input type="text" class="form-control input-field" placeholder="Email" name="email" id="email" />
+            <span id="email-info" class="info"></span>
+          </div>
+        </div>
+        <div class="form-group row">
+          <div class="col input-row">
+            <input type="number" class="form-control input-field" placeholder="Mobile" name="mobile" id="mobile" />
+            <span id="mobile-info" class="info"></span>
+          </div>
+          <div class="col input-row">
+            <input type="text" class="form-control input-field" placeholder="Subject" name="subject" id="subject" />
+            <span id="subject-info" class="info"></span>
+          </div>
+        </div>
+        <div class="form-group row">
+          <div class="col input-row">
+            <textarea class="form-control" id="message" rows="4" placeholder="Message"></textarea>
+            <span id="message-info" class="info"></span>
+          </div>
+        </div>
+        <div class="col input-row">
+          <button type="submit" class="btn btn-primary mb-2" name="send">Get in touch</button>
 
-            <div class="input-row">
-                <label style="padding-top: 20px;">Name</label> <span
-                    id="userName-info" class="info"></span><br /> <input
-                    type="text" class="input-field" name="userName"
-                    id="userName" />
+            <div id="statusMessage"> 
+              <?php
+              if (! empty($message)) {
+                  ?>
+                  <p class='<?php echo $type; ?>Message'><?php echo $message; ?></p>
+              <?php
+              }
+              ?>
             </div>
-            <div class="input-row">
-                <label>Email</label> <span id="userEmail-info"
-                    class="info"></span><br /> <input type="text"
-                    class="input-field" name="userEmail" id="userEmail" />
-            </div>
-            <div class="input-row">
-                <label>Subject</label> <span id="subject-info"
-                    class="info"></span><br /> <input type="text"
-                    class="input-field" name="subject" id="subject" />
-            </div>
-            <div class="input-row">
-                <label>Message</label> <span id="userMessage-info"
-                    class="info"></span><br />
-                <textarea name="content" id="content"
-                    class="input-field" cols="60" rows="6"></textarea>
-            </div>
-            <div>
-                <input type="submit" name="send" class="btn-submit"
-                    value="Send" />
-
-                <div id="statusMessage"> 
-                        <?php
-                        if (! empty($message)) {
-                            ?>
-                            <p class='<?php echo $type; ?>Message'><?php echo $message; ?></p>
-                        <?php
-                        }
-                        ?>
-                    </div>
-            </div>
-        </form>
-    </div>
+        </div>
+  </form>
+</div>
 </section>
 
 <script type="text/javascript">
@@ -241,36 +251,32 @@ function validateContactForm() {
 
     $(".info").html("");
     $(".input-field").css('border', '#e0dfdf 1px solid');
-    var userName = $("#userName").val();
-    var userEmail = $("#userEmail").val();
-    var subject = $("#subject").val();
-    var content = $("#content").val();
+    var firstName = $("#firstName").val();
+    var lastName = $("#lastName").val();
+    var company = $("#company").val() || null;
+    var email = $("#email").val();
+    var mobile = $("#mobile").val() || null;
+    var subject = $("#subject").val() || null;
+    var message = $("#message").val();
     
-    if (userName == "") {
-        $("#userName-info").html("Required.");
-        $("#userName").css('border', '#e66262 1px solid');
+    if (firstName == "") {
+        $("#firstName-info").html("Required.");
+        $("#firstName").css('border', '#e66262 1px solid');
         valid = false;
     }
-    if (userEmail == "") {
-        $("#userEmail-info").html("Required.");
-        $("#userEmail").css('border', '#e66262 1px solid');
+    if (lastName == "") {
+        $("#lastName-info").html("Required.");
+        $("#lastName").css('border', '#e66262 1px solid');
         valid = false;
     }
-    if (!userEmail.match(/^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/))
-    {
-        $("#userEmail-info").html("Invalid Email Address.");
-        $("#userEmail").css('border', '#e66262 1px solid');
+    if (!email.match(/^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/)) {
+        $("#email-info").html("Invalid Email Address.");
+        $("#email").css('border', '#e66262 1px solid');
         valid = false;
     }
-
-    if (subject == "") {
-        $("#subject-info").html("Required.");
-        $("#subject").css('border', '#e66262 1px solid');
-        valid = false;
-    }
-    if (content == "") {
-        $("#userMessage-info").html("Required.");
-        $("#content").css('border', '#e66262 1px solid');
+    if (message == "") {
+        $("#message-info").html("Required.");
+        $("#message").css('border', '#e66262 1px solid');
         valid = false;
     }
     if(valid){
@@ -280,10 +286,13 @@ function validateContactForm() {
         url:"<?php bloginfo('template_directory');?>/admin/contact.php",
         data: 
         {  
-          userName :userName,
-          userEmail:userEmail,
+          firstName :firstName,
+          lastName: lastName,
+          company: company,
+          email: email,
+          mobile: mobile,
           subject: subject,
-          content: content
+          message: message
         },
         cache:false,
         success: function (html) 
@@ -296,10 +305,13 @@ function validateContactForm() {
           console.log('Error:',err);
         }
         });
-      document.getElementById("userName").value = '';
-      document.getElementById("userEmail").value = '';
-      document.getElementById("subject").value = '';
-      document.getElementById("content").value = '';
+        $("#firstName").val('');
+        $("#lastName").val('');
+        $("#company").val('');
+        $("#email").val('');
+        $("#mobile").val('');
+        $("#subject").val('');
+        $("#message").val('');
     } 
     return false;
 }

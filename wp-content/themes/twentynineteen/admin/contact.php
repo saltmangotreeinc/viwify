@@ -1,14 +1,18 @@
 <?php
 require_once( $_SERVER['DOCUMENT_ROOT'].'/wp-load.php' );
 
-$name = $_POST["userName"];
-$email = $_POST["userEmail"];
+$firstName = $_POST["firstName"];
+$lastName = $_POST["lastName"];
+$company = $_POST["company"];
+$email = $_POST["email"];
+$mobile = $_POST["mobile"];
 $subject = $_POST["subject"];
-$content = $_POST["content"];
+$message = $_POST["message"];
 
 $prefix ='wp_';
-$table = $wpdb->$prefix.'wp_contact';
-$data = array('name' => $name, 'email' => $email, 'subject'=>$subject, 'content'=>$content);
+$table = $wpdb->$prefix.'contact';
+$data = array('firstName' => $firstName, 'lastName'=>$lastName, 'company'=>$company,
+    'email' => $email, 'mobile'=>$mobile, 'subject'=>$subject, 'message'=>$message);
 $format = array('%s','%s');
 $wpdb->insert($table,$data,$format);
 $my_id = $wpdb->insert_id;

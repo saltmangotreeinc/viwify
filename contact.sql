@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:8889
--- Generation Time: Mar 15, 2020 at 05:54 PM
+-- Generation Time: Mar 29, 2020 at 01:47 PM
 -- Server version: 5.7.26
 -- PHP Version: 7.1.31
 
@@ -17,31 +17,30 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Table structure for table `wp_contact`
+-- Table structure for table `contact`
 --
 
-CREATE TABLE `wp_contact` (
+CREATE TABLE `contact` (
   `id` bigint(20) NOT NULL,
-  `name` varchar(255) NOT NULL,
-  `email` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_520_ci NOT NULL,
-  `subject` varchar(255) NOT NULL,
-  `content` varchar(255) NOT NULL,
+  `firstName` varchar(255) NOT NULL,
+  `lastName` varchar(255) NOT NULL,
+  `company` varchar(255) DEFAULT NULL,
+  `email` varchar(255) NOT NULL,
+  `mobile` varchar(255) DEFAULT NULL,
+  `subject` varchar(255) DEFAULT NULL,
+  `message` text NOT NULL,
   `created_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
--- Indexes for table `wp_contact`
+-- Indexes for table `contact`
 --
-ALTER TABLE `wp_contact`
+ALTER TABLE `contact`
   ADD PRIMARY KEY (`id`),
-  ADD UNIQUE KEY `email` (`email`);
+  ADD UNIQUE KEY `email_unique` (`email`);
 
 --
--- AUTO_INCREMENT for dumped tables
+-- AUTO_INCREMENT for table `contact`
 --
-
---
--- AUTO_INCREMENT for table `wp_contact`
---
-ALTER TABLE `wp_contact`
+ALTER TABLE `contact`
   MODIFY `id` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1;

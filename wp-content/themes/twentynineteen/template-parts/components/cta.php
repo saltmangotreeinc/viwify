@@ -7,7 +7,9 @@
         <p class="wmb--md">
           Elevate your classrooms & redefine the future of learning with the premium displays from Viwify.
         </p>
-        <? include 'book-demo.php' ?>
+        <div class="custom">
+          <? include 'book-demo.php' ?>
+        </div>
       </div>
     </div>
   </div>

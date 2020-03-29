@@ -9,6 +9,9 @@
 <script type="text/javascript">
     function submitEmail(){
       var email = $('.vw-book-demo').find('input[name="email"]').val();
+      if(!email){ // form2
+        email = $('.custom .vw-book-demo').find('input[name="email"]').val();
+      }
       $.ajax({
         type:"post",
         url:"<?php bloginfo('template_directory');?>/admin/submit-email.php",
@@ -27,7 +30,10 @@
           console.log('Error:',err);
         }
         });
+
       $('.vw-book-demo').find('input[name="email"]').val('');
+      $('.custom .vw-book-demo').find('input[name="email"]').val('');
+
       return false;
      }
 </script>

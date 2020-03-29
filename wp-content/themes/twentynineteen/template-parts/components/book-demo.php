@@ -10,7 +10,7 @@
     function submitEmail(){
       var email = $('.vw-book-demo').find('input[name="email"]').val();
       if(!email){ // form2
-        email = $('.custom .vw-book-demo').find('input[name="email"]').val();
+        email = $('.vw-cta--wrapper .vw-book-demo').find('input[name="email"]').val();
       }
       $.ajax({
         type:"post",
@@ -32,7 +32,7 @@
         });
 
       $('.vw-book-demo').find('input[name="email"]').val('');
-      $('.custom .vw-book-demo').find('input[name="email"]').val('');
+      $('.vw-cta--wrapper .vw-book-demo').find('input[name="email"]').val('');
 
       return false;
      }

@@ -800,6 +800,7 @@ p {
 }
 
 .vw-book-demo--wrapper .vw-book-demo button {
+  min-width: 144px;
   height: 60px;
   background-color: #E4405F;
   border: none;

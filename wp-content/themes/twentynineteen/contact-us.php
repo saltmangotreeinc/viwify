@@ -69,7 +69,7 @@ Template Name: Contact Us
     $(".input-field").css('border', '#e0dfdf 1px solid');
     var firstName = $("#firstName").val();
     var lastName = $("#lastName").val();
-    var company = $("#company").val() || null;
+    var company = $("#company").val();
     var email = $("#email").val();
     var mobile = $("#mobile").val() || null;
     var subject = $("#subject").val() || null;
@@ -83,6 +83,11 @@ Template Name: Contact Us
     if (lastName == "") {
       $("#lastName-info").html("Required.");
       $("#lastName").css('border', '#e66262 1px solid');
+      valid = false;
+    }
+    if (company == "") {
+      $("#company-info").html("Required.");
+      $("#company").css('border', '#e66262 1px solid');
       valid = false;
     }
     if (!email || !email.match(/^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/)) {

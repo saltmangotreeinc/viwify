@@ -40,7 +40,7 @@ Template Name: Contact Us
     </div>
     <div class="form-group row">
       <div class="col input-row">
-        <textarea class="form-control" name="message" id="message" rows="4" placeholder="Message"></textarea>
+        <textarea class="form-control input-field" name="message" id="message" rows="4" placeholder="Message"></textarea>
         <span id="message-info" class="info"></span>
       </div>
     </div>
@@ -90,7 +90,12 @@ Template Name: Contact Us
       $("#company").css('border', '#e66262 1px solid');
       valid = false;
     }
-    if (!email || !email.match(/^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/)) {
+    if(!email){
+      $("#email-info").html("Required.");
+      $("#email").css('border', '#e66262 1px solid');
+      valid = false;
+    }
+    else if (!email || !email.match(/^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/)) {
       $("#email-info").html("Invalid Email Address.");
       $("#email").css('border', '#e66262 1px solid');
       valid = false;

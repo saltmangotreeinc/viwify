@@ -50,18 +50,18 @@
         <!-- Navigation -->
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="/about-us">
+            <a class="nav-link" href="#!">
               About Us
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/products">
+            <a class="nav-link" href="#!">
               Blog
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/products">
-              Support
+            <a class="nav-link" href="/contact-us/">
+              Contact Us
             </a>
           </li>
           <li>

@@ -1,0 +1,71 @@
+.vw-button {
+  @include inline-flex();
+  @include flex-direction(row);
+  @include justify-content(center);
+  @include align-items(center);
+  border-radius: $border-radius-sm;
+  border: thin solid transparent;
+  font-size: 16px;
+  font-weight: $font-weight-normal;
+  transition: all 0.3s;
+  text-decoration: none;
+  line-height: 1;
+  height: 60px;
+  @include padding(null 24px);
+  &:hover {
+    text-decoration: none;
+    transform: translateY(-2px);
+  }
+
+  @include viewport(mob) {
+    width: 100%;
+  }
+}
+
+.vw-button--primary {
+  background-color: $vw-color--primary;
+  color: $vw-color--white;
+
+  &:hover {
+    color: $vw-color--white;
+  }
+}
+
+.vw-button--secondary {
+  background-color: $vw-color--grey;
+  color: $vw-color--black;
+
+  &:hover {
+    color: $vw-color--black;
+  }
+}
+
+.vw-button--border {
+  background-color: $vw-color--white;
+  color: $vw-color--black;
+  border: 2px solid $vw-color--black;
+
+  &:hover {
+    color: $vw-color--black;
+  }
+}
+
+.vw-link {
+  display: inline-block;
+  color: $vw-color--black;
+  text-decoration: none;
+  transition: all 0.3s;
+  &:hover {
+    color: $vw-color--black;
+    text-decoration: none;
+    transform: translateY(-2px);
+  }
+}
+
+.vw--badge {
+  background-color: $vw-color--light-blue;
+  color: $vw-color--white;
+  border-radius: $border-radius-sm;
+  white-space: nowrap;
+  @include padding(4px 16px);
+}

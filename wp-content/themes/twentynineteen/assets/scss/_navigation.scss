@@ -1,0 +1,58 @@
+.navbar {
+  position: fixed;
+  width: 100%;
+  transition: all 0.3s;
+  top: 0;
+  left: 0;
+  background-color: $vw-color--white;
+  z-index: 10;
+  
+  @include padding(16px 32px 24px);
+
+  @include viewport(tablet) {
+    @include padding(16px);
+  }
+
+  &.navbar-fixed {
+    box-shadow: 0 1px 6px rgba(38, 38, 39, .05);
+    -moz-box-shadow: 0 1px 6px rgba(38, 38, 39, .05);
+    -webkit-box-shadow: 0 1px 6px rgba(38, 38, 39, .05);
+  }
+
+  .navbar-brand {
+    @include margin(0 24px 0 0);
+  }
+
+  .navbar-nav {
+    .nav-item {
+      .nav-link {
+        @include margin(0 16px);
+        @include padding(4px 0);
+        transition: all 0.3s;
+        border-bottom: 2px solid transparent;
+
+        @include viewport(tablet) {
+          display: inline-block;
+          @include margin(16px 0 0);
+        }
+      }
+
+      &:hover,
+      &:active,
+      &:focus,
+      &.active {
+        .nav-link {
+          border-bottom: 2px solid $vw-color--red;
+        }
+      }
+    }
+  }
+
+  .vw-button {
+    height: 36px;
+    @include margin(0 0 0 16px);
+    @include viewport(tablet) {
+      @include margin(16px 0);
+    }
+  }
+}

@@ -1,0 +1,61 @@
+.vw-home-banner--wrapper {
+  @include padding($navbar-height 32px 32px);
+  @include margin(0 0 48px);
+
+  @include viewport(mob) {
+    @include padding(null 16px);
+  }
+
+  .vw-home-banner--container {
+    width: 100%;
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    
+    @include padding(120px 0);
+    
+    @include viewport(tab-min) {
+      background-position: top left;
+    }
+
+    @include viewport(mob) {
+      border-radius: $border-radius-lg;
+      background-color: $vw-color--env;
+      background-image: none !important;
+      @include padding(96px 0 120px);
+
+      h1, p {
+        text-align: center;
+      }
+    }
+
+    .vw-home-banner--left {
+      width: 50%;
+      @include viewport(lap-max) {
+        width: 45%;
+        h1 {
+          font-size: 48px;
+        }
+      }
+      @include viewport(tab-min) {
+        width: 65%;
+        @include padding(0 0 0 64px)
+      }
+
+      @include viewport(mob) {
+        width: 85%;
+        @include padding(0);
+        @include margin(auto);
+      }
+    }
+  }
+}
+
+.vw-home--section {
+  @include padding(72px 0);
+  &.vw-home--section--grey {
+    background-color: $vw-color--env;
+    @include margin(72px 0);
+    @include padding(120px 0);
+  }
+}

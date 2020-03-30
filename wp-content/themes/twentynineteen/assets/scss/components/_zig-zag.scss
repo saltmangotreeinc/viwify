@@ -1,0 +1,96 @@
+.ss-zig-zag-wrapper.ss-zig-zag-wrapper--reverse {
+  .ss-zig-zag-item {
+    &:nth-child(even) {
+      @include flex-direction(row);
+    }
+
+    &:nth-child(odd) {
+      @include flex-direction(row-reverse);
+    }
+
+    @include viewport(mob) {
+
+      &:nth-child(even),
+      &:nth-child(odd) {
+        @include flex-direction(column-reverse);
+      }
+    }
+  }
+}
+
+.ss-zig-zag-wrapper {
+  font-size: 16px;
+  @include margin(4em 0 0);
+
+  .ss-zig-zag-item.ss-zig-zag-item--full-width {
+    width: 100%;
+  }
+
+  .ss-zig-zag-item {
+    @include flexbox();
+    @include flex-direction(row);
+    @include justify-content(flex-start);
+    @include align-items(center);
+    @include flex-wrap(wrap);
+    @include margin(0 auto 120px);
+    width: 90%;
+
+    @include viewport(tab-min) {
+      width: 100%;
+    }
+
+    &:nth-child(even) {
+      @include flex-direction(row-reverse);
+    }
+
+    @include viewport(mob) {
+      @include flex-direction(column-reverse);
+      @include margin(0 auto 72px);
+
+      &:nth-child(even) {
+        @include flex-direction(column-reverse);
+      }
+    }
+
+    &:last-child {
+      @include margin(auto);
+    }
+
+    .zig-zag-content,
+    .zig-zag-image {
+      width: 50%;
+      @include padding(0 24px);
+
+      @include viewport(mob) {
+        width: 100%;
+        @include padding(0);
+      }
+    }
+
+    .zig-zag-content {
+      h3 {
+        font-size: 40px;
+        @include margin(0 0 16px);
+        @include viewport(tab-min) {
+          font-size: 32px;
+        }
+      }
+    }
+
+    .zig-zag-image {
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+
+      @include viewport(mob) {
+        @include margin(0 0 48px);
+
+        img {
+          max-width: 100%;
+          @include margin(0 auto);
+        }
+      }
+    }
+  }
+}

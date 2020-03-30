@@ -1,0 +1,61 @@
+.vw-book-demo--wrapper {
+  @include viewport(mob) {
+    p {
+      text-align: center;
+    }
+  }
+  .vw-book-demo {
+    @include margin(0 0 4px);
+    @include viewport(mob) {
+      @include flex-direction(column);
+    }
+
+    input {
+      height: 60px;
+      border: thin solid $vw-color--border;
+      background-color: $vw-color--white;
+      -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+      flex-grow: 1;
+      transition: all 0.3s;
+      border-radius: $border-radius-xs;
+      @include margin(0 8px 0 0);
+      @include padding(0 12px);
+
+      @include placeholder {
+        color: $vw-color--chrome;
+
+        @include viewport(mob) {
+          text-align: center;
+        }
+      }
+
+      @include viewport(mob) {
+        width: 100%;
+        @include margin(0 0 16px 0);
+      }
+
+      &:focus {
+        border-color: $vw-color--black;
+      }
+    }
+
+    button {
+      height: 60px;
+      background-color: $vw-color--primary;
+      border: none;
+      transition: all 0.3s;
+      color: $vw-color--white;
+      border-radius: $border-radius-xs;
+      @include padding(null 24px);
+
+      @include viewport(mob) {
+        width: 100%;
+      }
+
+      &:hover {
+        background-color: darken($vw-color--primary, 5%);
+      }
+    }
+  }
+}

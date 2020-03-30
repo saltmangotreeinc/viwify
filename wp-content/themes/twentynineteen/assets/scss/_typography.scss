@@ -1,0 +1,156 @@
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-weight: normal;
+  line-height: 1;
+
+  @include viewport(tab-min) {
+    line-height: 1.2;
+  }
+}
+
+p {
+  font-size: 18px;
+  font-weight: $font-weight-thin;
+  line-height: 1.5;
+  @include margin(0);
+  @include viewport(tab-min) {
+    font-size: 16px;
+  }
+  @include viewport(mob) {
+    font-size: 14px;
+    text-align: justify;
+  }
+}
+
+
+.vw--56 {
+  font-size: 56px;
+  @include viewport(tab-min) {
+    font-size: 48px;
+  }
+}
+
+.vw--40 {
+  font-size: 40px;
+  @include viewport(tab-min) {
+    font-size: 32px;
+  }
+}
+
+.vw--32 {
+  font-size: 32px;
+  @include viewport(tab-min) {
+    font-size: 24px;
+  }
+}
+
+.vw--24 {
+  font-size: 24px;
+  @include viewport(tab-min) {
+    font-size: 20px;
+  }
+}
+
+.vw--20 {
+  font-size: 20px;
+  @include viewport(tab-min) {
+    font-size: 18px;
+  }
+}
+
+.vw--18 {
+  font-size: 18px;
+  @include viewport(tab-min) {
+    font-size: 16px;
+  }
+}
+
+.vw--16 {
+  font-size: 16px;
+  @include viewport(tab-min) {
+    font-size: 14px;
+  }
+}
+
+.vw--14 {
+  font-size: 14px;
+  @include viewport(tab-min) {
+    font-size: 12px;
+  }
+}
+
+.vw--12 {
+  font-size: 12px;
+  @include viewport(tab-min) {
+    font-size: 10px;
+  }
+}
+
+.vw--thin {
+  font-weight: $font-weight-thin;
+}
+
+.vw--normal {
+  font-weight: $font-weight-normal;
+}
+
+.vw--semibold {
+  font-weight: $font-weight-semibold;
+}
+
+.vw--bold {
+  font-weight: $font-weight-semibold;
+}
+
+.vw--white {
+  color: $vw-color--white;
+}
+
+.vw--light {
+  color: rgba($vw-color--black, 0.6);
+}
+
+.vw--blue {
+  color: $vw-color--blue;
+}
+
+.vw--uppercase {
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.vw--strike {
+  text-decoration: line-through;
+}
+
+.vw-list {
+  @include padding(0 0 0 16px);
+  @include margin(0);
+  li {
+      font-weight: $font-weight-normal;
+      color: $vw-color--black;
+      line-height: 1.6;
+      font-size: inherit;
+      @include margin(0 0 8px 8px);
+
+      &:before {
+        display: none;
+      }
+
+      &:last-child {
+        margin-bottom: 0px !important;
+      }
+  }
+}
+
+.vw-list--unordered {
+  li {
+    list-style: disc;
+  }
+}
+
+.vw-list--ordered {
+  li {
+    list-style: decimal;
+  }
+}

@@ -1,0 +1,57 @@
+// Colors
+
+$vw-color--black: #1f2020;
+$vw-color--white: #ffffff;
+$vw-color--grey: #EDEDED;
+$vw-color--chrome: #2F354B;
+$vw-color--border: rgba(0, 0, 0, 0.1);
+$vw-color--red: #E81F26;
+$vw-color--env: #F8F8F8;
+$vw-color--chrome: #848484;
+$vw-color--blue: #0094FF;
+$vw-color--light-blue: #5893F6;
+$vw-color--primary: #E4405F;
+$vw-color--yellow: #FDE86E;
+
+
+// Animations
+$vw-default-transition: all 0.3s;
+
+// Font Family
+
+$base-font-family: 'IBM Plex Sans', sans-serif;
+
+// Font Weight
+
+$border-radius-base: 4px;
+$border-radius-xs: 2px;
+$border-radius-sm: 3px;
+$border-radius-lg: 6px;
+$border-radius-xl: 8px;
+
+// Font weights
+
+$font-weight-thin: 300;
+$font-weight-normal: 400;
+$font-weight-regular: 500;
+$font-weight-semibold: 600;
+$font-weight-bold: 700;
+
+//Shadows
+$vw-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+$vw-shadow-xs: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.03);
+$vw-shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+  0 2px 4px -1px rgba(0, 0, 0, 0.06);
+$vw-shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+  0 4px 6px -2px rgba(0, 0, 0, 0.05);
+$vw-shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+  0 10px 10px -5px rgba(0, 0, 0, 0.04);
+$vw-shadow-2xl: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+$vw-shadow-inner: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06);
+$vw-shadow-outline: 0 0 0 3px rgba(66, 153, 225, 0.5);
+$vw-shadow-none: none;
+
+
+//Heights
+
+$navbar-height: 82px;
